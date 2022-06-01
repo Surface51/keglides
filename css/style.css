@@ -1,0 +1,1291 @@
+/* Global css start */
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rift";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a {
+  padding: 0;
+  margin: 0;
+  color: #000;
+}
+
+p {
+  font-family: Trade Gothic Next LT Pro;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+li:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1642px;
+  margin: 0 auto;
+  width: 87%;
+}
+
+/* Global css end */
+
+/* header css start */
+header .navbar {
+  padding: 42px 0;
+}
+
+header nav .collapse {
+  justify-content: end;
+}
+
+header .navbar .collapse ul {
+  margin-top: 100px;
+}
+
+header nav .collapse li a {
+  font-size: 32px;
+  font-family: Rift;
+  margin-right: 65px;
+  color: black;
+}
+
+ul.navbar-nav li:last-child a {
+  margin-right: 0;
+}
+
+/* header css ends */
+
+/* Banner css start */
+.banner {
+  background-image: url("../images/home/Mask Group 24.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  padding: 100px 0;
+}
+
+.banner::after {
+  content: " ";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgb(0, 162, 255);
+  mix-blend-mode: multiply;
+}
+
+.banner .hero-slider {
+  z-index: 1;
+  position: relative;
+}
+
+.banner .slick-list.draggable {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slick-dots {
+  bottom: -80px;
+}
+
+/* .slick-prev:before {
+     content: 'url("data:image/svg+xml,%3Ci class='fa-solid fa-angle-left'%3E%3C/i%3E")'; 
+    opacity: 1;
+    font-size: 90px;
+} */
+.prev-arrow3 {
+  position: absolute;
+  color: white;
+  width: 20px;
+  font-size: 47px;
+  top: 45%;
+  left: 54px;
+}
+
+.next-arrow3 {
+  position: absolute;
+  color: white;
+  width: 20px;
+  font-size: 58px;
+  top: 44%;
+  right: 71px;
+}
+
+/* .slick-next:before {
+     content: '>'; 
+    opacity: 1;
+    font-size: 90px;
+} */
+.slick-dots li {
+  position: relative;
+  display: inline-block;
+  width: 26px;
+  height: 33px;
+  margin: 0 8px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.slick-dots li button:before {
+  opacity: 0.75;
+  font-size: 70px;
+  color: #ffffffcc;
+}
+
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: white;
+  border-radius: 20px;
+  font-size: 95px;
+}
+
+/* .banner .banner_text {
+    padding-top: 100px;
+    padding-bottom: 168px;
+} */
+
+.banner .banner_text h1 {
+  font-size: 160px;
+  font-weight: 500;
+  color: white;
+}
+
+.banner .banner_text h2 {
+  font-size: 360px;
+  font-weight: 700;
+  color: white;
+  line-height: 284px;
+}
+
+.banner_text p {
+  font-size: 50px;
+  font-weight: 700;
+  color: white;
+}
+
+/* Banner css ends */
+
+/* FOODSERVICE CSS STARTS */
+.food {
+  padding-top: 107px;
+  padding-bottom: 94px;
+}
+
+.food .foodservice h2 {
+  text-align: center;
+  font-size: 70px;
+  font-weight: 500;
+  color: #172a58;
+  font-family: Rift;
+  padding-bottom: 48px;
+  /* max-width: 1610px; */
+}
+
+.food .foodservice h2 span {
+  font-weight: 700;
+}
+
+.food .foodservice p {
+  width: 100%;
+  max-width: 1408px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 35px;
+}
+
+.food .foodservie_image {
+  padding-top: 80px;
+  max-width: 1436px;
+  margin: 0 auto;
+  padding-bottom: 128px;
+}
+
+.food .foodservie_image img {
+  width: 100%;
+}
+
+.food .performance h3 {
+  text-align: center;
+  font-size: 54px;
+  font-weight: 700;
+  color: #00599c;
+}
+
+.food .performance h4 {
+  /* text-align: center; */
+  font-size: 100px;
+  font-weight: 500;
+  color: #172a58;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.food .performance h4 span {
+  font-weight: 700;
+}
+
+.food .performance p {
+  font-size: 35px;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1327px;
+}
+
+.food .performance .performance_text {
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1326px;
+  padding-top: 41px;
+}
+
+/* FOODSERVICES CSS ENDS HERE */
+
+/* CUSTOMERS CSS STARTS HERE */
+.customer .customer_text h5 {
+  font-size: 109px;
+  font-weight: 700;
+  color: #172a58;
+  text-align: center;
+  padding-bottom: 27px;
+}
+
+.customer .customer_text p {
+  font-size: 54px;
+  font-weight: 700;
+  color: #00599c;
+  text-align: center;
+  padding-bottom: 25.7px;
+}
+
+.customer .customer_list_text {
+  margin-bottom: 50px;
+}
+
+.customer .row .customer_image img {
+  width: 100%;
+}
+
+/* .customer .row .customer_image{
+    max-width: 745px;
+} */
+.customer .list_images1 {
+  max-width: 626px;
+  padding-bottom: 98.6px;
+  padding-top: 59px;
+}
+
+.customer .list_images2 {
+  max-width: 742px;
+}
+
+.customer .list_images3 {
+  max-width: 745px;
+}
+
+.customer .list_images4 {
+  max-width: 522px;
+}
+
+.customer .list_images5 {
+  max-width: 745px;
+}
+
+.customer .list_images6 {
+  max-width: 745px;
+}
+
+.customer .row .col-lg-6 h6 {
+  width: 100%;
+  max-width: 662px;
+  color: #00599c;
+  font-size: 54px;
+  font-weight: 700;
+  padding-bottom: 15px;
+  padding-top: 41px;
+}
+
+.customer .row .col-lg-6 p {
+  width: 100%;
+  max-width: 700px;
+  font-size: 35px;
+}
+
+/* CUSTOMER CSS ENDS */
+
+/* NEXTPAGES CSS STRATS */
+.nextpages {
+  padding-bottom: 100px;
+}
+
+.nextpages .contact_image {
+  background-image: url("./../images/home/IMG_0530.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  max-width: 802px;
+}
+
+.nextpages .contact_image::after {
+  content: " ";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(4, 145, 229, 0.6);
+  mix-blend-mode: multiply;
+}
+
+.nextpages .contact_image h6 {
+  font-size: 109px;
+  font-weight: 700;
+  padding: 111px 0;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.nextpages .contact_image h6 {
+  z-index: 1;
+  position: relative;
+}
+
+.nextpages .product_image {
+  background-image: url("./../images/home/IMG_0559.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  max-width: 802px;
+}
+
+.nextpages .product_image::after {
+  content: " ";
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(4, 145, 229, 0.6);
+  mix-blend-mode: multiply;
+}
+
+.nextpages .product_image h6 {
+  font-size: 109px;
+  font-weight: 700;
+  padding: 111px 0;
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.nextpages .product_image h6 {
+  z-index: 1;
+  position: relative;
+}
+
+/* NEXTPAGES ENDS HERE */
+
+/* FORM STARTS HERE */
+.contact_form .contact_form_text h6 {
+  width: 100%;
+  max-width: 1222px;
+  font-weight: 700;
+  font-size: 109px;
+  color: #172a58;
+  text-align: left;
+  margin: 0 auto;
+
+  padding-top: 25px;
+}
+
+.contact_form .contact_form_text p {
+  font-size: 32px;
+  width: 100%;
+  max-width: 1222px;
+  text-align: left;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.contact_form .contact_forms {
+  width: 100%;
+  max-width: 1222px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.contact_forms textarea.form-control {
+  height: 300px;
+}
+
+.contact_forms .btn-primary {
+  margin-top: 35px;
+  background-color: #172a58;
+  width: 100%;
+  max-width: 485px;
+  font-size: 32px;
+  color: white;
+  padding: 8px 0px;
+}
+
+.contact_forms .form-control {
+  padding: 15px 15px;
+  font-size: 32px;
+  margin-bottom: 38px;
+  height: 75px;
+}
+
+/* CONTACT FROM ENDS */
+
+/* WARNING CSS STARTS */
+.warning .warning_image {
+  padding-top: 159px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.warning .warning_image img {
+  max-width: 67px;
+}
+
+.warning .warning_text p {
+  width: 100%;
+  max-width: 1302px;
+  font-family: Source Sans Pro;
+  font-size: 25px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 84px;
+}
+
+/* Warning Ends */
+/* FOOTER */
+footer {
+  background-color: #172a58;
+}
+
+.footer_content {
+  display: flex;
+  padding-top: 75px;
+  justify-content: space-between;
+}
+
+footer .logo {
+  max-width: 784px;
+}
+
+footer .icons {
+  width: 100%;
+  max-width: 382px;
+  padding: 47px;
+  margin-right: 35px;
+}
+
+footer .icons ul {
+  display: flex;
+}
+
+footer .icons ul li i {
+  font-size: 52px;
+  margin-right: 34px;
+  color: white;
+}
+
+footer .copyright p {
+  font-size: 27px;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 39px;
+  padding-bottom: 65px;
+}
+
+@media (max-width: 1885px) {
+  header .navbar .collapse ul {
+    margin-top: 60px;
+  }
+
+  header nav .collapse li a {
+    font-size: 32px;
+  }
+
+  nav .navbar-brand {
+    max-width: 500px;
+  }
+
+  .banner .banner_text h1 {
+    font-size: 100px;
+    margin-left: 100px;
+    /* line-height: 130px; */
+  }
+
+  .banner .banner_text h2 {
+    font-size: 200px;
+    margin-left: 100px;
+    line-height: 200px;
+  }
+
+  .banner_text p {
+    margin-left: 100px;
+  }
+
+  .next-arrow3 {
+    right: 55px;
+  }
+
+  .prev-arrow3 {
+    left: 40px;
+  }
+
+  .food .foodservice h2 {
+    font-size: 55px;
+  }
+
+  .food .foodservice p {
+    font-size: 25px;
+  }
+
+  .food .performance h4 {
+    text-align: center;
+    font-size: 84px;
+  }
+
+  .food .foodservie_image {
+    max-width: 1300px;
+  }
+
+  .food .performance h3 {
+    font-size: 45px;
+  }
+
+  .food .performance p {
+    font-size: 27px;
+  }
+
+  .food .performance .performance_text {
+    font-size: 27px;
+  }
+
+  .customer .customer_text h5 {
+    font-size: 88px;
+  }
+
+  .customer .customer_text p {
+    font-size: 46px;
+  }
+
+  .customer .row .col-lg-6 h6 {
+    font-size: 48px;
+  }
+
+  .customer .row .col-lg-6 p {
+    font-size: 23px;
+  }
+
+  .contact_form .contact_form_text h6 {
+    font-size: 90px;
+  }
+
+  .contact_forms .btn-primary {
+    margin-top: 25px;
+    max-width: 340px;
+    font-size: 28px;
+  }
+
+  .nextpages .contact_image h6 {
+    font-size: 85px;
+  }
+
+  .nextpages .product_image h6 {
+    font-size: 85px;
+  }
+
+  footer .logo {
+    max-width: 670px;
+  }
+}
+
+@media (max-width: 1440px) {
+  header nav .collapse li a {
+    font-size: 25px;
+  }
+
+  header .navbar .collapse ul {
+    margin-top: 20px;
+  }
+
+  nav .navbar-brand {
+    max-width: 300px;
+  }
+
+  header nav .collapse li a {
+    margin-right: 30px;
+  }
+
+  .next-arrow3 {
+    right: 30px;
+  }
+
+  .prev-arrow3 {
+    left: 15px;
+  }
+
+  .banner .banner_text h1 {
+    font-size: 80px;
+    /* line-height: 80px; */
+  }
+
+  .banner .banner_text h2 {
+    font-size: 150px;
+    line-height: 150px;
+  }
+
+  .banner_text p {
+    font-size: 30px;
+  }
+
+  .food .foodservice p {
+    max-width: 890px;
+  }
+
+  .food .foodservie_image {
+    max-width: 950px;
+  }
+
+  .food .performance h3 {
+    font-size: 35px;
+  }
+
+  .food .performance h4 {
+    font-size: 64px;
+  }
+
+  .food .performance p {
+    font-size: 25px;
+    max-width: 890px;
+  }
+
+  .food .performance .performance_text {
+    font-size: 25px;
+  }
+
+  .customer .customer_text h5 {
+    font-size: 80px;
+  }
+
+  .customer .customer_text p {
+    font-size: 33px;
+  }
+
+  .customer .row .col-lg-6 h6 {
+    font-size: 36px;
+  }
+
+  .nextpages .contact_image h6 {
+    font-size: 60px;
+  }
+
+  .nextpages .product_image h6 {
+    font-size: 60px;
+  }
+
+  .contact_form .contact_form_text h6 {
+    font-size: 60px;
+    max-width: 890px;
+  }
+
+  .contact_form .contact_form_text p {
+    font-size: 25px;
+    max-width: 890px;
+  }
+
+  .contact_form .contact_forms {
+    max-width: 890px;
+  }
+
+  .footer_content {
+    max-width: 890px;
+    margin: 0 auto;
+  }
+
+  footer .copyright p {
+    font-size: 20px;
+  }
+
+  footer .icons ul li i {
+    font-size: 36px;
+    margin-right: 20px;
+  }
+
+  footer .icons {
+    margin-right: unset;
+  }
+}
+
+@media (max-width: 1024px) {
+  header nav .collapse li a {
+    font-size: 20px;
+  }
+
+  nav .navbar-brand {
+    max-width: 250px;
+  }
+
+  header nav .collapse li a {
+    margin-right: 20px;
+  }
+
+  .next-arrow3 {
+    font-size: 35px;
+    right: 30px;
+  }
+
+  .prev-arrow3 {
+    font-size: 35px;
+    left: 30px;
+  }
+
+  .banner .banner_text h1 {
+    font-size: 50px;
+    /* line-height: 75px; */
+  }
+
+  .banner .banner_text h2 {
+    font-size: 100px;
+    line-height: 110px;
+  }
+
+  .banner_text p {
+    font-size: 20px;
+  }
+
+  .slick-prev:before {
+    content: "<";
+    opacity: 1;
+    font-size: 32px;
+  }
+
+  .slick-next:before {
+    content: ">";
+    opacity: 1;
+    font-size: 32px;
+  }
+
+  .slick-dots li button:before {
+    font-size: 45px;
+  }
+
+  .food .foodservice h2 {
+    font-size: 36px;
+  }
+
+  .food .foodservice p {
+    font-size: 20px;
+    max-width: 680px;
+  }
+
+  .food .foodservie_image {
+    max-width: 950px;
+  }
+
+  .food .performance h3 {
+    font-size: 26px;
+  }
+
+  .food .performance h4 {
+    font-size: 45px;
+  }
+
+  .food .performance p {
+    font-size: 20px;
+    max-width: 680px;
+  }
+
+  .food .performance .performance_text {
+    font-size: 20px;
+  }
+
+  .customer .customer_text h5 {
+    font-size: 45px;
+  }
+
+  .customer .customer_text p {
+    font-size: 20px;
+  }
+
+  .customer .row .col-lg-6 h6 {
+    font-size: 30px;
+  }
+
+  .nextpages .contact_image h6 {
+    font-size: 36px;
+    padding: 60px 0;
+  }
+
+  .nextpages .product_image h6 {
+    font-size: 36px;
+    padding: 60px 0;
+  }
+
+  .customer .row .col-lg-6 p {
+    font-size: 20px;
+  }
+
+  .contact_form .contact_form_text h6 {
+    font-size: 45px;
+    max-width: 680px;
+  }
+
+  .contact_form .contact_form_text p {
+    font-size: 20px;
+    max-width: 680px;
+  }
+
+  .contact_forms .btn-primary {
+    margin-top: 20px;
+    max-width: 250px;
+    font-size: 26px;
+  }
+
+  .contact_form .contact_forms {
+    max-width: 680px;
+  }
+
+  .contact_forms .form-control {
+    padding: 10px 10px;
+    font-size: 32px;
+    margin-bottom: 20px;
+    height: 60px;
+  }
+
+  footer .logo {
+    max-width: 300px;
+  }
+
+  .footer_content {
+    max-width: 680px;
+    margin: 0 auto;
+  }
+
+  footer .icons {
+    max-width: 230px;
+    padding: 20px;
+  }
+
+  footer .icons ul li i {
+    font-size: 20px;
+  }
+
+  footer .copyright p {
+    font-size: 20px;
+  }
+}
+@media (max-width: 991px){
+  .contact_forms .form-control {
+     
+      font-size: 20px;
+      
+  }
+  .food {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.food .foodservie_image {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.food .performance .performance_text {
+  padding-top: 0px;
+}
+.customer .list_images1 {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.nextpages {
+  padding-bottom: 50px;
+}
+.contact_form .contact_form_text p {
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+.warning .warning_image {
+  padding-top: 60px;
+}
+
+
+  }
+@media (max-width: 768px) {
+  /* .navbar-toggler {
+        padding: 0.25rem 0.75rem;
+        font-size: 1.25rem;
+        line-height: 1;
+        background-color: #172A58;
+        border: 1px solid #00599C;
+        border-radius: 0.25rem;
+    } */
+    .stopscroll {
+        height: 100vh;
+        overflow: hidden;
+    }
+  header .navbar {
+    padding: 20px 0;
+  }
+
+  header {
+    position: relative;
+  }
+  header button {
+    position: absolute;
+    top: -43px;
+    right: 150px;
+  }
+
+  .navbar-toggler {
+    position: absolute;
+    right: -3%;
+    top: 30px;
+    z-index: 99999;
+    border: none;
+    outline: none;
+  }
+  header button span {
+    width: 30px;
+    height: 2px;
+    background: #172a58;
+    display: block;
+    border: 1px solid gray;
+    transition: all ease 0.5s;
+    margin-bottom: 6px;
+    cursor: pointer;
+  }
+  header .navbar-expand-md .navbar-nav .nav-link {
+    margin: 0;
+  }
+  header .navbar-collapse ul {
+      width: 50%;
+  }
+  header .navbar-collapse ul li:nth-child(2){
+      border-top: 1px solid white;
+      border-bottom: 1px solid white;
+  }
+  header nav .collapse {
+    justify-content: center;
+  }
+  header .navbar-collapse {
+    background-color: #172a58;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    height: 100vh;
+    transition: all ease-out 0.2s;
+    opacity: 0;
+    width: 100%;
+    transform: scale(0.1);
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  header .navbar-collapse.show {
+    opacity: 1;
+    transform: scale(1.3);
+    height: 100vh;
+  }
+  header .navbar-expand-md .navbar-nav .nav-link {
+    padding: 24px 0;
+    font-size: 17px;
+    color: #fff;
+    text-align: center;
+  }
+  header .navbar-brand {
+    z-index: 6;
+  }
+
+  .change span:nth-child(1) {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-46deg) translate(-3px, 7px);
+  }
+  .change span:nth-child(2) {
+    opacity: 0;
+  }
+  .change span:nth-child(3) {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-4px, -8px);
+  }
+  header .navbar-toggler:focus,
+  .navbar-toggler:hover {
+    outline: 0;
+    border: 0;
+  }
+
+  .next-arrow3 {
+    right: 30px;
+  }
+
+  .prev-arrow3 {
+    left: 25px;
+  }
+
+  .banner .banner_text h1 {
+    margin-left: 50px;
+  }
+  .banner .banner_text h2 {
+    margin-left: 50px;
+  }
+  .banner_text p {
+    margin-left: 50px;
+    max-width: 245px;
+  }
+
+  .nextpages .contact_image {
+    margin-bottom: 20px;
+  }
+
+  .contact_forms .btn-primary {
+    margin-top: 10px;
+    max-width: 150px;
+    font-size: 14px;
+  }
+
+  .contact_form .contact_form_text p {
+    font-size: 14px;
+  }
+
+  .contact_form .contact_form_text h6 {
+    font-size: 30px;
+  }
+
+  .contact_forms .form-control {
+    font-size: 14px;
+  }
+
+  .warning .warning_text p {
+    max-width: 583px;
+    font-size: 16px;
+  }
+  .warning .warning_image {
+    padding-top: 50px;
+}
+
+  .footer_content {
+    flex-direction: column;
+  }
+
+  footer .logo {
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+
+  footer .icons {
+    margin: 0 auto;
+  }
+
+  footer .icons ul {
+    justify-content: center;
+  }
+
+  footer .copyright p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 425px) {
+  /* header .navbar-toggler {
+        background-color: #172A58;
+        border: 1px solid #172A58;
+    } */
+
+  nav .navbar-brand {
+    max-width: 175px;
+  }
+
+  .prev-arrow3 {
+    left: 16px;
+  }
+  .next-arrow3 {
+    right: 16px;
+  }
+  .slick-dots li.slick-active button:before {
+    font-size: 75px;
+  }
+  .slick-dots li {
+    width: 20px;
+
+    margin: 0 0px;
+  }
+  .banner .banner_text h1 {
+    font-size: 36px;
+    /* line-height: 50px; */
+  }
+
+  .banner .banner_text h2 {
+    font-size: 80px;
+  }
+
+  .banner_text p {
+    font-size: 14px;
+    max-width: 225px;
+  }
+
+  .food .foodservice h2 {
+    font-size: 26px;
+  }
+
+  .food .foodservice p {
+    font-size: 14px;
+  }
+
+  .food .performance h3 {
+    font-size: 20px;
+  }
+
+  .food .performance h4 {
+    font-size: 30px;
+  }
+
+  .food .performance p {
+    font-size: 14px;
+    max-width: 680px;
+  }
+  .food .foodservie_image {
+    padding-bottom: 50px;
+    padding-top: 50px;
+  }
+  .food .performance .performance_text {
+    font-size: 14px;
+  }
+  .food .performance .performance_text {
+    padding-top: unset;
+  }
+  .customer .list_images1 {
+    padding-bottom: 20.6px;
+    padding-top: 20px;
+  }
+  .customer .customer_text h5 {
+    font-size: 30px;
+  }
+
+  .customer .customer_text p {
+    font-size: 14px;
+  }
+
+  .customer .row .col-lg-6 h6 {
+    font-size: 26px;
+  }
+
+  .customer .row .col-lg-6 p {
+    font-size: 14px;
+  }
+  .contact_forms textarea.form-control {
+    height: 150px;
+  }
+  .contact_form .contact_form_text p {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .nextpages .contact_image h6 {
+    font-size: 30px;
+  }
+
+  .nextpages .product_image h6 {
+    font-size: 30px;
+  }
+  .nextpages {
+    padding-bottom: 50px;
+  }
+  .contact_forms .form-control {
+    padding: 5px 5px;
+    margin-bottom: 10px;
+    height: 45px;
+  }
+  .contact_forms .btn-primary {
+    max-width: 100px;
+  }
+  .warning .warning_image {
+    padding-top: 50px;
+  }
+  .warning .warning_text p {
+    padding-bottom: 50px;
+  }
+
+  footer .icons ul {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 375px) {
+  .banner .banner_text h1 {
+    font-size: 30px;
+  }
+
+  .banner .banner_text h2 {
+    font-size: 60px;
+  }
+
+  .banner_text p {
+    max-width: 200px;
+  }
+
+  .slick-next {
+    right: 5px;
+  }
+}
