@@ -263,7 +263,7 @@ ul.navbar-nav li:last-child a {
 }
 
 .food .performance h4 {
-  /* text-align: center; */
+   text-align: center; 
   font-size: 100px;
   font-weight: 500;
   color: #172a58;
@@ -277,7 +277,7 @@ ul.navbar-nav li:last-child a {
 
 .food .performance p {
   font-size: 35px;
-  text-align: center;
+  text-align: center !im;
   margin: 0 auto;
   width: 100%;
   max-width: 1327px;
