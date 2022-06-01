@@ -263,7 +263,7 @@ ul.navbar-nav li:last-child a {
 }
 
 .food .performance h4 {
-   text-align: center; 
+   text-align: center !important; 
   font-size: 100px;
   font-weight: 500;
   color: #172a58;
