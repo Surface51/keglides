@@ -17,6 +17,15 @@
 
 }
 
+@font-face {
+    font-family: 'rift';
+    src: url('../fonts/fort_foundry_-_rift-regular-webfont') format('woff'),
+         url('../fonts/fort_foundry_-_rift-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 
 @font-face {
     font-family: 'trade_gothic_next_lt_pro_bdRg';

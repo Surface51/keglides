@@ -15,7 +15,7 @@ img {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'riftbold';
+  font-family: 'rift';
   font-weight: 400;
   font-size: 16px;
 }
@@ -51,7 +51,7 @@ a {
 }
 
 p {
-  font-family:'trade_gothic_next_lt_pro_bdRg';
+  font-family:'trade_gothic_next_lt_pro';
 }
 
 li {
@@ -79,10 +79,12 @@ a:hover {
 /* Global css end */
 
 /* header css start */
-header .navbar {
+/* header .navbar {
   padding: 42px 0;
+} */
+header{
+  height: 222px;
 }
-
 header nav .collapse {
   justify-content: end;
 }
@@ -93,9 +95,17 @@ header .navbar .collapse ul {
 
 header nav .collapse li a {
   font-size: 32px;
-  font-family: 'riftbold';
+  font-family: 'rift';
   margin-right: 65px;
   color: black;
+}
+.navbar-expand-md .navbar-nav a {
+padding: 0 !important;
+border-bottom: 4px solid white;
+}
+header nav .collapse li a:hover {
+  border-bottom: 4px solid #172a58 !important;
+  padding: 0 !important;
 }
 
 ul.navbar-nav li:last-child a {
@@ -179,15 +189,20 @@ ul.navbar-nav li:last-child a {
 
 .slick-dots li button:before {
   opacity: 0.75;
-  font-size: 70px;
+  font-size: 100px;
   color: #ffffffcc;
+  
+  border: 4px solid white;
+  border-radius: 50px;
+  background: unset;
+  color: unset;
+
 }
 
 .slick-dots li.slick-active button:before {
-  opacity: 0.75;
+  border: unset;
   color: white;
-  border-radius: 20px;
-  font-size: 95px;
+  left: -5px;
 }
 
 /* .banner .banner_text {
@@ -227,9 +242,10 @@ ul.navbar-nav li:last-child a {
   font-size: 70px;
   font-weight: 500;
   color: #172a58;
-  font-family: 'riftbold';
+  font-family: 'rift';
   padding-bottom: 48px;
-  /* max-width: 1610px; */
+  max-width: 1366px;
+  margin: 0 auto;
 }
 
 .food .foodservice h2 span {
@@ -277,7 +293,7 @@ ul.navbar-nav li:last-child a {
 
 .food .performance p {
   font-size: 35px;
-  text-align: center !im;
+  text-align: center !important;
   margin: 0 auto;
   width: 100%;
   max-width: 1327px;
@@ -290,7 +306,7 @@ ul.navbar-nav li:last-child a {
   margin: 0 auto;
   width: 100%;
   max-width: 1326px;
-  padding-top: 41px;
+  /* padding-top: 41px; */
 }
 
 /* FOODSERVICES CSS ENDS HERE */
@@ -324,7 +340,7 @@ ul.navbar-nav li:last-child a {
     max-width: 745px;
 } */
 .customer .list_images1 {
-  max-width: 626px;
+  /* max-width: 626px; */
   padding-bottom: 98.6px;
   padding-top: 59px;
 }
@@ -361,7 +377,6 @@ ul.navbar-nav li:last-child a {
 
 .customer .row .col-lg-6 p {
   width: 100%;
-  max-width: 700px;
   font-size: 35px;
 }
 
@@ -489,8 +504,8 @@ ul.navbar-nav li:last-child a {
 .contact_forms .form-control {
   padding: 15px 15px;
   font-size: 32px;
-  margin-bottom: 38px;
-  height: 75px;
+  margin-bottom: 15px;
+    height: 60px;
 }
 
 /* CONTACT FROM ENDS */
@@ -510,7 +525,7 @@ ul.navbar-nav li:last-child a {
   width: 100%;
   max-width: 1302px;
   font-family: Source Sans Pro;
-  font-size: 25px;
+  font-size: 19px;
   text-align: center;
   margin: 0 auto;
   padding-bottom: 84px;
@@ -524,7 +539,7 @@ footer {
 
 .footer_content {
   display: flex;
-  padding-top: 75px;
+  padding-top: 40px;
   justify-content: space-between;
 }
 
@@ -555,8 +570,8 @@ footer .copyright p {
   font-weight: 700;
   text-align: center;
   margin: 0 auto;
-  padding-top: 39px;
-  padding-bottom: 65px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 @media (max-width: 1885px) {
@@ -1166,9 +1181,9 @@ footer .copyright p {
   .next-arrow3 {
     right: 16px;
   }
-  .slick-dots li.slick-active button:before {
+  /* .slick-dots li.slick-active button:before {
     font-size: 75px;
-  }
+  } */
   .slick-dots li {
     width: 20px;
 
