@@ -1,0 +1,67 @@
+/* CONTACT BANNER CSS */
+
+.contact {
+    background-image: url(./../images/contacts/Mask\ Group\ 25.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    padding: 70px 0;
+}
+
+.contact::after {
+    content: " ";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(0, 162, 255);
+    mix-blend-mode: multiply;
+}
+
+.contact .contact_text h1 {
+    font-size: 214px;
+    font-family: rift;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding-top: 122px;
+    padding-bottom: 136px;
+}
+
+.contact h1 {
+    z-index: 1;
+    position: relative;
+}
+.contact_form .contact_form_text p {
+    padding-top: 15px !important;
+}
+
+
+@media(max-width:1440px){
+    .contact .contact_text h1 {
+        font-size: 140px;
+    }
+}
+@media(max-width:1024px){
+    .contact .contact_text h1 {
+        font-size: 100px;
+    }
+}
+@media(max-width:768px){
+    .contact{
+        padding: 0;
+    }
+    .contact .contact_text h1 {
+        font-size: 75px;
+    }
+    .contact_form .contact_form_text p {
+        font-size: 18px !important;
+    }
+}
+@media(max-width:425px){
+    .contact .contact_text h1 {
+        font-size: 50px;
+    }
+}

@@ -1,0 +1,377 @@
+
+
+.pro_banner{
+    background-image: linear-gradient(
+      rgba(4, 145, 229, 0.8),
+      rgba(4, 145, 229, 0.8)
+    ),
+    url("../images/product/Mask\ Group\ 25.png");
+  background-blend-mode: multiply;
+  padding: 164px 0;
+  background-size: cover;
+  background-position: center;
+}
+.pro_banner .pro_text h1{
+    font-size: 214px;
+    text-align: center;
+    color: white;
+}
+
+/* BAnner css End */
+
+/* Detail Section Css Start */
+
+.pro_detail .detail_img{
+    max-width: 869px ;
+    padding-top: 62px;
+}
+.pro_detail .detail_img img{
+    width: 100%;
+}
+
+.pro_detail .detail_head h2{
+    font-size: 109px;
+    font-weight: bold;
+    color: #172A58;
+    padding-bottom: 59px;
+    padding-top: 107.5px;
+}
+.pro_detail .detail_head p{
+    font-size: 32px;
+}
+.pro_detail .detail_head p span{
+    display: block;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.pro_detail .detail_head .detail_logo{
+    max-width: 128px;
+}
+.pro_detail .detail_head .detail_logo img{
+    width: 100%;
+}
+.pro_detail .detail_head .detail_btn{
+    padding-top: 56px;
+    padding-bottom: 230px;
+    display: inline-block;
+}
+.pro_detail .detail_head .detail_btn a{
+    color: white;
+    background-color: #172A58;
+    padding: 14px 120px;
+    font-size: 32px;
+    /* width: 100%;
+    max-width: 491px; */
+
+
+}
+
+/* Detail Section Css End */
+
+/* NEed Section css Start */
+
+.need{
+    padding-bottom: 141px;
+}
+.need .need_card{
+    text-align: center;
+}
+.need .need_card .need_img{
+    max-width: 1336px;
+    margin: 0 auto;
+    padding-top:20px;
+    padding-bottom: 70px;
+}
+.need .need_card .need_img img{
+    width: 100%;
+}
+.need .need_card .need_text h3{
+    font-size: 109px;
+    color: #172A58;
+    padding-bottom: 61px;
+    font-weight: bold;
+}
+.need .need_card .need_text p{
+    font-size: 32px;
+    max-width: 1096px;
+    margin: 0 auto;
+    padding-bottom: 125px;
+    display: inline-block;
+    font-weight: 700;
+}
+/* .need .need_card .need_text .need_btn{
+    padding-top: 59px;
+} */
+.need .need_card .need_text .need_btn a{
+color: white;
+    background-color: #172A58;
+    padding: 12px 120px;
+    font-size: 32px;
+    display: inline-block;
+}
+/* Need Section End */
+
+
+.contact_form .contact_form_text p {
+
+    padding-top: 76px !important;
+}
+
+.warning .warning_text p {
+    padding-bottom: 66px !important;
+}
+/* MEdia Queries */
+@media(max-width:1440px){
+    .pro_banner {
+        padding: 100px 0;
+    }
+    .pro_banner .pro_text h1 {
+        font-size: 150px;
+    }
+    .pro_detail .detail_head h2 {
+        font-size: 100px;
+        padding-top: 70px;
+    }
+    .pro_detail .detail_head p {
+        font-size: 28px;
+    }
+    .pro_detail .detail_head .detail_btn a {
+        padding: 10px 60px;
+        font-size: 28px;
+    }
+    .need .need_card .need_text h3 {
+        font-size: 90px;
+    }
+    .need .need_card .need_text .need_btn a {
+        padding: 10px 60px;
+        font-size: 28px;
+    }
+}
+
+@media(max-width:1024px){
+    .pro_banner {
+        padding: 80px 0;
+    }
+    .pro_banner .pro_text h1 {
+        font-size: 125px;
+    }
+    .pro_detail .detail_head h2 {
+        font-size: 75px;
+    }
+    .need .need_card .need_text h3 {
+        font-size: 75px;
+    }
+    .contact_form .contact_form_text h6 {
+        font-size: 60px !important;
+    }
+    .contact_form .contact_form_text p {
+        font-size: 28px !important;
+    }
+    .contact_forms .form-control {
+        font-size: 24px !important;
+    }
+}
+@media(max-width:991px){
+    .pro_banner .pro_text h1 {
+        font-size: 150px;
+    }
+    .pro_banner .pro_text h1 {
+        font-size: 75px;
+    }
+    .pro_detail .detail_img {
+        max-width: 466px;
+        padding-top: 62px;
+        margin: 0 auto;
+    }
+    .pro_detail .detail_head .detail_btn {
+    padding-bottom: unset;
+    }
+    
+    .pro_detail .detail_head h2 {
+        font-size: 74px;
+        padding-top:unset;
+    }    
+    .pro_detail .detail_head p {
+        font-size: 26px;
+    }
+    .pro_detail .detail_head .detail_btn a {
+        padding: 12px 90px;
+        font-size: 26px;
+    }
+    .need .need_card .need_text h3 {
+        font-size: 74px;
+    }
+    .need .need_card .need_text p {
+        font-size: 26px;
+        max-width: 620px;
+        
+    padding-bottom: 40px;
+
+    } 
+    .contact_form .contact_form_text p {
+        padding-top: 15px !important;
+    }
+    .need .need_card .need_text .need_btn a {
+        padding: 12px 75px;
+        font-size: 26px;
+    }
+    .pro_detail .detail_head{
+        text-align: center;
+    }
+    .pro_detail .detail_head .detail_logo{
+        margin: 0 auto;
+    }
+}
+@media(max-width:768px){
+    .pro_banner {
+        padding: 100px 0;
+    }
+    
+   
+    .pro_detail .detail_head h2 {
+        font-size: 40px;
+        padding-top: unset;
+        padding-top: 0;
+    }
+    .pro_detail .detail_head p {
+        font-size: 18px;
+    }
+    .pro_detail .detail_head .detail_btn {
+        padding-top: 30px;
+        padding-bottom: unset;
+        
+    }
+    .pro_detail .detail_head .detail_btn a {
+        padding: 5px 15px;
+        font-size: 18px;
+    }
+    .need .need_card .need_img {
+        padding-top: 50px;
+       
+    }
+    .need .need_card .need_text h3 {
+        font-size: 40px;
+        padding-bottom: 20px;
+    }
+    .need .need_card .need_text p {
+        font-size: 18px;
+        max-width: 500px;
+    }
+    .need .need_card .need_text .need_btn a {
+        padding: 5px 15px;
+        font-size: 18px;
+    }
+    .need .need_card .need_text p {
+        padding-bottom: 25px;
+    }
+    .need {
+        padding-bottom: 90px;
+    }
+    .contact_form .contact_form_text h6 {
+        font-size: 40px !important;
+    }
+    .contact_form .contact_form_text p {
+        font-size: 18px !important;
+    }
+    .contact_forms .form-control {
+        font-size: 18px !important;
+    }
+}
+
+@media(max-width:425px){
+    .pro_banner .pro_text h1 {
+        font-size: 61px;
+    }
+    .pro_detail .detail_img {
+        max-width: 225px;
+    padding-top: 45px;
+    margin: 0 auto;
+    }
+    .need .need_card .need_text h3 {
+        font-size: 50px;
+    }
+    .pro_detail .detail_head h2 {
+        font-size: 50px;
+    }
+    .pro_detail .detail_head p {
+        font-size: 20px;
+    }
+    .need .need_card .need_text p {
+        font-size: 20px;
+    }
+    .pro_detail .detail_head .detail_btn a {
+        padding: 5px 15px;
+        font-size: 20px;
+    }
+    .pro_detail .detail_head .detail_logo{
+        padding-top: 10px;
+    }
+    .pro_detail .detail_head .detail_logo img {
+        max-width: 100px;
+    }
+    .need .need_card .need_text .need_btn a {
+        padding: 5px 15px;
+        font-size: 20px;
+    }
+    
+    .request {
+        padding-top: 20px;
+    }
+    .contact_form .contact_form_text h6 {
+        font-size: 40px !important;
+    }
+    .contact_form .contact_form_text p {
+        font-size: 20px !important;
+    }
+    .contact_forms .form-control {
+        font-size: 20px !important;
+    }
+}
+
+@media(max-width:375px){
+    .pro_banner {
+        padding: 75px 0;
+    }
+
+    .pro_banner .pro_text h1 {
+        font-size: 45px;
+    }
+    .pro_detail .detail_img {
+        max-width: 175px;
+    padding-top: 36px;
+    margin: 0 auto;
+    }
+    .pro_detail .detail_head p {
+        font-size: 16px;
+    }
+    .pro_detail .detail_head .detail_btn a {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .need .need_card .need_text .need_btn a {
+        padding: 14px 28px;
+        font-size: 25px;
+    }
+    .need .need_card .need_text p {
+        font-size: 16px;
+    }
+    .need .need_card .need_text .need_btn a {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .request .form_Sec button a{
+        font-size: 25px;
+    }
+    .need .need_card .need_text h3{
+        font-size: 40px;
+    }
+    .pro_detail .detail_head h2 {
+        font-size: 40px;
+    }
+    .contact_form .contact_form_text p {
+        font-size: 16px !important;
+    }
+    .contact_forms .form-control {
+        font-size: 16px !important;
+    }
+}
