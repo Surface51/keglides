@@ -83,7 +83,7 @@ a:hover {
   padding: 42px 0;
 } */
 header{
-  height: 222px;
+  height: 150px;
 }
 header nav .collapse {
   justify-content: end;
@@ -818,7 +818,11 @@ footer .copyright p {
     margin-right: unset;
   }
 }
-
+@media(max-width:1280px){
+  header{
+    height: 150px !important;
+  }
+}
 @media (max-width: 1024px) {
   header nav .collapse li a {
     font-size: 20px;

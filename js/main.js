@@ -28,8 +28,8 @@ $(document).ready(function(){
     slidesToScroll: 1,
     autoplay:false,
     dots:false,
-    prevArrow: '<span class="prev-arrow3" ><i class="fal fa-chevron-left"></i></span>',
-     nextArrow: '<span class="next-arrow3" ><i class="fal fa-chevron-right"></i></span>' 
+    prevArrow: '<span class="prev-arrow3" ><i class="fa fa-chevron-left"></i></span>',
+     nextArrow: '<span class="next-arrow3" ><i class="fa fa-chevron-right"></i></span>' 
     });
 })
 
