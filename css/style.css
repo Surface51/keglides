@@ -314,7 +314,7 @@ ul.navbar-nav li:last-child a {
 /* CUSTOMERS CSS STARTS HERE */
 .customer .customer_text h5 {
   font-size: 109px;
-  font-weight: 700;
+  /* font-weight: 700; */
   color: #172a58;
   text-align: center;
   padding-bottom: 27px;
@@ -680,6 +680,9 @@ footer .copyright p {
 }
 
 @media (max-width: 1440px) {
+  header {
+    height: 85px;
+}
   header nav .collapse li a {
     font-size: 25px;
   }
@@ -703,7 +706,9 @@ footer .copyright p {
   .prev-arrow3 {
     left: 15px;
   }
-
+  /* .slick-dots li button:before {
+    font-size: 90px;
+} */
   .banner .banner_text h1 {
     font-size: 80px;
     /* line-height: 80px; */
@@ -717,13 +722,18 @@ footer .copyright p {
   .banner_text p {
     font-size: 30px;
   }
-
+  .food {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
   .food .foodservice p {
     max-width: 890px;
   }
 
   .food .foodservie_image {
     max-width: 950px;
+    padding-top: 60px;
+    padding-bottom: 40px;
   }
 
   .food .performance h3 {
@@ -763,6 +773,9 @@ footer .copyright p {
     font-size: 60px;
   }
 
+  .nextpages {
+    padding-bottom: 50px;
+}
   .contact_form .contact_form_text h6 {
     font-size: 60px;
     max-width: 890px;
@@ -771,12 +784,22 @@ footer .copyright p {
   .contact_form .contact_form_text p {
     font-size: 25px;
     max-width: 890px;
+    padding-bottom: 25px;
+    padding-top: 15px;
   }
 
   .contact_form .contact_forms {
     max-width: 890px;
   }
-
+  .contact_forms .form-control {
+    font-size: 24px;
+  }
+  .warning .warning_image {
+    padding-top: 60px;
+  }
+  .warning .warning_text p {
+    font-size: 16px;
+  }
   .footer_content {
     max-width: 890px;
     margin: 0 auto;
@@ -845,9 +868,9 @@ footer .copyright p {
     font-size: 32px;
   }
 
-  .slick-dots li button:before {
+  /* .slick-dots li button:before {
     font-size: 45px;
-  }
+  } */
 
   .food .foodservice h2 {
     font-size: 36px;
@@ -1181,13 +1204,20 @@ footer .copyright p {
   .next-arrow3 {
     right: 16px;
   }
-  /* .slick-dots li.slick-active button:before {
+  .slick-dots li.slick-active button:before {
     font-size: 75px;
-  } */
+  }
+  .slick-dots li.slick-active button:before {
+    font-size: 50px;
+    /* width: 15px; */
+  }
   .slick-dots li {
-    width: 20px;
+    width: 25px;
 
     margin: 0 0px;
+  }
+  .slick-dots li button:before {
+    font-size: 50px;
   }
   .banner .banner_text h1 {
     font-size: 36px;
