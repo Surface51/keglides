@@ -486,7 +486,7 @@ ul.navbar-nav li:last-child a {
 }
 
 .contact_forms textarea.form-control {
-  height: 300px;
+  height: 250px;
 }
 .contact_forms textarea::placeholder{
   color: #172A58;
@@ -577,7 +577,7 @@ footer .copyright p {
   font-weight: 700;
   text-align: center;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 @media (max-width: 1885px) {
@@ -810,6 +810,9 @@ footer .copyright p {
     /* max-width: 890px; */
     margin: 0 auto;
   }
+  footer .copyright p{
+    padding: 20px 0;
+  }
 
   footer .copyright p {
     font-size: 20px;
@@ -984,7 +987,7 @@ footer .copyright p {
 
   footer .icons {
     max-width: 230px;
-    padding: 20px;
+    padding: 5px;
   }
 
   footer .icons ul li i {
