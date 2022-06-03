@@ -108,7 +108,7 @@ padding: 0 !important;
 border-bottom: 4px solid white;
 }
 header nav .collapse li a:hover {
-  border-bottom: 4px solid #172a58 !important;
+  border-bottom: 4px solid #007DC5 !important;
   padding: 0 !important;
 }
 
@@ -265,6 +265,7 @@ ul.navbar-nav li:last-child a {
 
 .food .foodservice h2 span {
   font-weight: 700;
+  text-shadow: 2px 0 #172a58;
 }
 
 .food .foodservice p {
@@ -307,6 +308,7 @@ ul.navbar-nav li:last-child a {
 
 .food .performance h4 span {
   font-weight: 700;
+  text-shadow: 2px 0 #172a58;
 }
 
 .food .performance p {
@@ -486,6 +488,9 @@ ul.navbar-nav li:last-child a {
 .contact_forms textarea.form-control {
   height: 300px;
 }
+.contact_forms textarea::placeholder{
+  color: #172A58;
+}
 
 .contact_forms .btn-primary {
   margin-top: 35px;
@@ -504,7 +509,9 @@ ul.navbar-nav li:last-child a {
   margin-bottom: 15px;
     height: 60px;
 }
-
+.contact_form input::placeholder{
+  color: #172A58;
+}
 /* CONTACT FROM ENDS */
 
 /* WARNING CSS STARTS */
@@ -531,7 +538,7 @@ ul.navbar-nav li:last-child a {
 /* Warning Ends */
 /* FOOTER */
 footer {
-  padding: 70px 0;
+  padding: 50px 0;
   background-color: #172a58;
 }
 
