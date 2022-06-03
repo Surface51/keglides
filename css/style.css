@@ -51,9 +51,9 @@ a {
   color: #000;
 }
 
-/* p {
+p {
   font-family:'trade_gothic_next_lt_pro';
-} */
+}
 
 li {
   list-style-type: none;
@@ -421,6 +421,7 @@ ul.navbar-nav li:last-child a {
 
 .nextpages .product_image {
   background-image: url("./../images/home/IMG_0559.jpg");
+  /* background-image: url("./../product.html"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -502,7 +503,9 @@ ul.navbar-nav li:last-child a {
   padding: 8px 0px;
   border: 0px;
 }
-
+.contact_forms .btn-primary:hover {
+background-color: #00599c;
+}
 .contact_forms .form-control {
   padding: 15px 15px;
   font-size: 32px;
