@@ -675,9 +675,9 @@ footer .copyright p {
 }
 
 @media (max-width: 1440px) {
-  header {
+  /* header {
     height: 85px;
-}
+} */
   header nav .collapse li a {
     font-size: 25px;
   }
@@ -773,19 +773,19 @@ footer .copyright p {
 }
   .contact_form .contact_form_text h6 {
     font-size: 60px;
-    max-width: 890px;
+    /* max-width: 890px; */
   }
 
   .contact_form .contact_form_text p {
     font-size: 25px;
-    max-width: 890px;
+    /* max-width: 890px; */
     padding-bottom: 25px;
     padding-top: 15px;
   }
 
-  .contact_form .contact_forms {
+  /* .contact_form .contact_forms {
     max-width: 890px;
-  }
+  } */
   .contact_forms .form-control {
     font-size: 24px;
   }
@@ -796,7 +796,7 @@ footer .copyright p {
     font-size: 16px;
   }
   .footer_content {
-    max-width: 890px;
+    /* max-width: 890px; */
     margin: 0 auto;
   }
 
@@ -808,9 +808,12 @@ footer .copyright p {
     font-size: 36px;
     margin-right: 20px;
   }
-
+  footer .logo {
+    max-width: 430px;
+}
   footer .icons {
-    margin-right: unset;
+    margin-right: -45px;
+    padding: 38px 0;
   }
 }
 @media(max-width:1280px){
@@ -873,13 +876,16 @@ footer .copyright p {
 
   .food .foodservice h2 {
     font-size: 36px;
+    padding-bottom: 20px;
   }
 
   .food .foodservice p {
     font-size: 20px;
     max-width: 680px;
   }
-
+  .food .food-p2 {
+    padding-top: 20px;
+}
   .food .foodservie_image {
     max-width: 950px;
   }
@@ -890,6 +896,7 @@ footer .copyright p {
 
   .food .performance h4 {
     font-size: 45px;
+    padding: 20px 0;
   }
 
   .food .performance p {
@@ -935,6 +942,7 @@ footer .copyright p {
   .contact_form .contact_form_text p {
     font-size: 20px;
     max-width: 680px;
+    padding: 15px 0;
   }
 
   .contact_forms .btn-primary {
@@ -949,7 +957,7 @@ footer .copyright p {
 
   .contact_forms .form-control {
     padding: 10px 10px;
-    font-size: 32px;
+    font-size: 22px;
     margin-bottom: 20px;
     height: 60px;
   }
@@ -973,13 +981,13 @@ footer .copyright p {
   }
 
   footer .copyright p {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 @media (max-width: 991px){
   .contact_forms .form-control {
      
-      font-size: 20px;
+      font-size: 18px;
       
   }
   .food {
@@ -997,13 +1005,15 @@ footer .copyright p {
   padding-bottom: 50px;
 }
 .contact_form .contact_form_text p {
-  padding-bottom: 25px;
-  padding-top: 25px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
 .warning .warning_image {
   padding-top: 60px;
 }
-
+.warning .warning_text p {
+  font-size: 14px;
+}
 
   }
 @media (max-width: 768px) {
@@ -1015,6 +1025,10 @@ footer .copyright p {
         border: 1px solid #00599C;
         border-radius: 0.25rem;
     } */
+    .navbar-expand-md .navbar-nav a {
+      padding: 0 !important;
+      border-bottom:unset;
+      }
     .stopscroll {
         height: 100vh;
         overflow: hidden;
@@ -1130,6 +1144,15 @@ footer .copyright p {
     margin-left: 50px;
     max-width: 245px;
   }
+  .customer .customer_text h5 {
+    padding-bottom: 20px;
+  }
+  .cusotmers-wrapper {
+    padding: 20px 40px 0px 40px;
+}
+.cusotmers-wrapper2 {
+  padding: 20px 40px 0px 40px;
+}
 
   .nextpages .contact_image {
     margin-bottom: 20px;
@@ -1147,20 +1170,30 @@ footer .copyright p {
 
   .contact_form .contact_form_text h6 {
     font-size: 30px;
+    padding-top: 0px;
   }
 
   .contact_forms .form-control {
     font-size: 14px;
+    height: 30px;
   }
-
+  .contact_forms textarea.form-control {
+    height: 200px;
+}
   .warning .warning_text p {
     max-width: 583px;
-    font-size: 16px;
+    font-size: 14px;
+    padding-bottom: 25px;
   }
   .warning .warning_image {
     padding-top: 50px;
 }
-
+.warning .warning_image img {
+  max-width: 50px;
+}
+footer {
+  padding: 50px 0;
+}
   .footer_content {
     flex-direction: column;
   }
@@ -1203,7 +1236,8 @@ footer .copyright p {
     font-size: 75px;
   }
   .slick-dots li.slick-active button:before {
-    font-size: 50px;
+    font-size: 75px;
+    margin-top: -2px;
     /* width: 15px; */
   }
   .slick-dots li {
@@ -1212,7 +1246,8 @@ footer .copyright p {
     margin: 0 0px;
   }
   .slick-dots li button:before {
-    font-size: 50px;
+    width: 15px;
+    height: 15px;
   }
   .banner .banner_text h1 {
     font-size: 36px;
@@ -1312,6 +1347,10 @@ footer .copyright p {
 }
 
 @media (max-width: 375px) {
+  .slick-dots li.slick-active button:before {
+    font-size: 75px;
+    /* width: 15px; */
+  }
   .banner .banner_text h1 {
     font-size: 30px;
   }
