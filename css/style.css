@@ -139,9 +139,10 @@ ul.navbar-nav li:last-child a {
   mix-blend-mode: multiply;
 }
 
-.banner .hero-slider {
+.banner .banner_text {
   z-index: 1;
   position: relative;
+
 }
 
 .banner .slick-list.draggable {
@@ -214,7 +215,7 @@ ul.navbar-nav li:last-child a {
     padding-bottom: 168px;
 } */
 .banner_text  {
-  padding: 0 24px;
+  padding: 0 235px;
 }
 .banner .banner_text h1 {
   font-size: 160px;
@@ -574,6 +575,16 @@ footer .icons ul li {
   font-size: 52px;
   margin-right: 15px;
   color: white;
+  position: relative;
+}
+footer .icons ul li span{
+  position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+}
+footer .icons ul li:hover span{
+  opacity: 1 !important;
 }
 
 footer .copyright p {
