@@ -276,7 +276,7 @@ ul.navbar-nav li:last-child a {
   text-align: center;
   margin: 0 auto;
   font-size: 38px;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 .food .food-p2 {
   padding-top: 25px;
@@ -315,7 +315,7 @@ ul.navbar-nav li:last-child a {
 
 .food .performance p {
   font-size: 38px;
-  line-height: 1.3;
+  line-height: 1.5;
   text-align: center !important;
   margin: 0 auto;
   width: 100%;
