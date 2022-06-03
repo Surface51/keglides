@@ -6,6 +6,7 @@
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
+  
 }
 
 img {
@@ -71,9 +72,9 @@ a:hover {
 }
 
 .container {
-  max-width: 1642px;
+  max-width: 1656px;
   margin: 0 auto;
-  width: 87%;
+  width: 90%;
 }
 
 /* Global css end */
@@ -83,21 +84,24 @@ a:hover {
   padding: 42px 0;
 } */
 header{
-  height: 150px;
+  padding: 35px 0 30px;
 }
 header nav .collapse {
   justify-content: end;
 }
 
 header .navbar .collapse ul {
-  margin-top: 100px;
+  margin-top: 70px;
 }
 
 header nav .collapse li a {
   font-size: 32px;
   font-family: 'rift';
-  margin-right: 65px;
+  margin: 0 52px;
   color: black;
+}
+nav.navbar.navbar-expand-md {
+  padding: 0;
 }
 .navbar-expand-md .navbar-nav a {
 padding: 0 !important;
@@ -121,7 +125,7 @@ ul.navbar-nav li:last-child a {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-  padding: 100px 0;
+  padding: 100px 0 120px;
 }
 
 .banner::after {
@@ -146,7 +150,7 @@ ul.navbar-nav li:last-child a {
 }
 
 .slick-dots {
-  bottom: -80px;
+  bottom: -95px;
 }
 
 /* .slick-prev:before {
@@ -209,7 +213,9 @@ ul.navbar-nav li:last-child a {
     padding-top: 100px;
     padding-bottom: 168px;
 } */
-
+.banner_text  {
+  padding: 0 24px;
+}
 .banner .banner_text h1 {
   font-size: 160px;
   font-weight: 500;
@@ -217,7 +223,7 @@ ul.navbar-nav li:last-child a {
 }
 
 .banner .banner_text h2 {
-  font-size: 360px;
+  font-size: 340px;
   font-weight: 700;
   color: white;
   line-height: 284px;
@@ -229,6 +235,15 @@ ul.navbar-nav li:last-child a {
   color: white;
 }
 
+.slick-dots li.slick-active button:before {
+  margin-top: 2px;
+  opacity: 1;
+}
+.slick-dots li button:before {
+  width: 25px;
+  height: 25px;
+  opacity: 1;
+}
 /* Banner css ends */
 
 /* FOODSERVICE CSS STARTS */
@@ -257,14 +272,17 @@ ul.navbar-nav li:last-child a {
   max-width: 1408px;
   text-align: center;
   margin: 0 auto;
-  font-size: 35px;
+  font-size: 38px;
+  line-height: 1.3;
 }
-
+.food .food-p2 {
+  padding-top: 25px;
+}
 .food .foodservie_image {
   padding-top: 80px;
   max-width: 1436px;
   margin: 0 auto;
-  padding-bottom: 128px;
+  padding-bottom: 105px;
 }
 
 .food .foodservie_image img {
@@ -273,7 +291,7 @@ ul.navbar-nav li:last-child a {
 
 .food .performance h3 {
   text-align: center;
-  font-size: 54px;
+  font-size: 52px;
   font-weight: 700;
   color: #00599c;
 }
@@ -292,7 +310,8 @@ ul.navbar-nav li:last-child a {
 }
 
 .food .performance p {
-  font-size: 35px;
+  font-size: 38px;
+  line-height: 1.3;
   text-align: center !important;
   margin: 0 auto;
   width: 100%;
@@ -326,6 +345,7 @@ ul.navbar-nav li:last-child a {
   color: #00599c;
   text-align: center;
   padding-bottom: 25.7px;
+  font-family: "rift";
 }
 
 .customer .customer_list_text {
@@ -336,38 +356,14 @@ ul.navbar-nav li:last-child a {
   width: 100%;
 }
 
-/* .customer .row .customer_image{
-    max-width: 745px;
-} */
-.customer .list_images1 {
-  /* max-width: 626px; */
-  padding-bottom: 98.6px;
-  padding-top: 59px;
+.cusotmers-wrapper {
+  padding: 40px 70px 40px 0px;
 }
-
-.customer .list_images2 {
-  max-width: 742px;
+.cusotmers-wrapper2 {
+  padding: 40px 0px 40px 70px;
 }
-
-.customer .list_images3 {
-  max-width: 745px;
-}
-
-.customer .list_images4 {
-  max-width: 522px;
-}
-
-.customer .list_images5 {
-  max-width: 745px;
-}
-
-.customer .list_images6 {
-  max-width: 745px;
-}
-
 .customer .row .col-lg-6 h6 {
   width: 100%;
-  max-width: 662px;
   color: #00599c;
   font-size: 54px;
   font-weight: 700;
@@ -499,6 +495,7 @@ ul.navbar-nav li:last-child a {
   font-size: 32px;
   color: white;
   padding: 8px 0px;
+  border: 0px;
 }
 
 .contact_forms .form-control {
@@ -534,12 +531,12 @@ ul.navbar-nav li:last-child a {
 /* Warning Ends */
 /* FOOTER */
 footer {
+  padding: 70px 0;
   background-color: #172a58;
 }
 
 .footer_content {
   display: flex;
-  padding-top: 40px;
   justify-content: space-between;
 }
 
@@ -550,8 +547,7 @@ footer .logo {
 footer .icons {
   width: 100%;
   max-width: 382px;
-  padding: 47px;
-  margin-right: 35px;
+  padding: 47px 0;
 }
 
 footer .icons ul {
@@ -570,8 +566,7 @@ footer .copyright p {
   font-weight: 700;
   text-align: center;
   margin: 0 auto;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 40px;
 }
 
 @media (max-width: 1885px) {
@@ -998,10 +993,6 @@ footer .copyright p {
 .food .performance .performance_text {
   padding-top: 0px;
 }
-.customer .list_images1 {
-  padding-bottom: 50px;
-  padding-top: 50px;
-}
 .nextpages {
   padding-bottom: 50px;
 }
@@ -1267,10 +1258,7 @@ footer .copyright p {
   .food .performance .performance_text {
     padding-top: unset;
   }
-  .customer .list_images1 {
-    padding-bottom: 20.6px;
-    padding-top: 20px;
-  }
+
   .customer .customer_text h5 {
     font-size: 30px;
   }
