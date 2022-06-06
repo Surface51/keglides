@@ -1,23 +1,39 @@
 
 
 .pro_banner{
-    background-image: linear-gradient(
-      rgba(4, 145, 229, 0.8),
-      rgba(4, 145, 229, 0.8)
-    ),
-    url("../images/product/Mask\ Group\ 25.png");
-  background-blend-mode: multiply;
-  padding: 164px 0;
-  background-size: cover;
-  background-position: center;
+    background-image: url(./../images/product/productbannerimage.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    /* padding: 70px 0; */
 }
-.pro_banner .pro_text h1{
-    font-size: 214px;
-    text-align: center;
-    color: white;
+.pro_banner::after {
+    content: " ";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgb(0, 162, 255);
+    mix-blend-mode: multiply;
 }
 
-/* BAnner css End */
+.pro_banner .pro_text h1{
+    font-size: 214px;
+    font-family: 'riftbold';
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding-top: 143px;
+    padding-bottom: 143px;
+}
+.pro_banner .pro_text h1 {
+    z-index: 1;
+    position: relative;
+}
+
+/* Banner css End */
 
 /* Detail Section Css Start */
 
@@ -37,7 +53,9 @@
     padding-top: 107.5px;
 }
 .pro_detail .detail_head p{
-    font-size: 32px;
+    font-size: 28px;
+    font-family: unset;
+
 }
 .pro_detail .detail_head p span{
     display: block;
@@ -46,13 +64,14 @@
 }
 .pro_detail .detail_head .detail_logo{
     max-width: 128px;
+    padding: 20px 0px;
 }
 .pro_detail .detail_head .detail_logo img{
     width: 100%;
 }
 .pro_detail .detail_head .detail_btn{
     padding-top: 56px;
-    padding-bottom: 230px;
+    padding-bottom: 130px;
     display: inline-block;
 }
 .pro_detail .detail_head .detail_btn a{

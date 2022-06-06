@@ -1,12 +1,12 @@
 /* CONTACT BANNER CSS */
 
 .contact {
-    background-image: url(./../images/contacts/Mask\ Group\ 25.png);
+    background-image: url(./../images/contacts/contactbannerimage.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    padding: 70px 0;
+    /* padding: 70px 0; */
 }
 
 .contact::after {
@@ -26,8 +26,8 @@
     font-weight: 700;
     color: white;
     text-align: center;
-    padding-top: 122px;
-    padding-bottom: 136px;
+    padding-top: 143px;
+    padding-bottom: 143px;
 }
 
 .contact h1 {
@@ -36,6 +36,9 @@
 }
 .contact_form .contact_form_text p {
     padding-top: 15px !important;
+}
+.contact_form .contact_form_text h6{
+    padding-top: 75px !important;
 }
 
 

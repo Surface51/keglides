@@ -99,6 +99,7 @@ header nav .collapse li a {
   font-family: 'rift';
   margin: 0 52px;
   color: black;
+  position: relative;
 }
 nav.navbar.navbar-expand-md {
   padding: 0;
@@ -107,9 +108,27 @@ nav.navbar.navbar-expand-md {
 padding: 0 !important;
 border-bottom: 4px solid white;
 }
-header nav .collapse li a:hover {
+/* header nav .collapse li a:hover {
   border-bottom: 4px solid #007DC5 !important;
   padding: 0 !important;
+} */
+
+header nav .collapse ul li a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #00599c;
+  transform: scaleX(0);
+  transform-origin: top left;
+  transition: transform 0.3s ease;
+}
+
+.collapse li a:hover::before {
+  transform: scaleX(1);
 }
 
 ul.navbar-nav li:last-child a {
@@ -389,7 +408,7 @@ ul.navbar-nav li:last-child a {
 }
 
 .nextpages .contact_image {
-  background-image: url("./../images/home/IMG_0530.jpg");
+  background-image: url("./../images/home/contactpage.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -423,7 +442,7 @@ ul.navbar-nav li:last-child a {
 }
 
 .nextpages .product_image {
-  background-image: url("./../images/home/IMG_0559.jpg");
+  background-image: url("./../images/home/productimage.jpg");
   /* background-image: url("./../product.html"); */
   background-position: center;
   background-repeat: no-repeat;
@@ -585,6 +604,7 @@ footer .icons ul li span{
 }
 footer .icons ul li:hover span{
   opacity: 1 !important;
+  cursor: pointer;
 }
 
 footer .copyright p {
