@@ -176,7 +176,7 @@ color: white;
         font-size: 125px;
     }
     .pro_detail .detail_head h2 {
-        font-size: 75px;
+        font-size: 60px;
     }
     .need .need_card .need_text h3 {
         font-size: 75px;
@@ -217,6 +217,8 @@ color: white;
     .pro_detail .detail_head .detail_btn a {
         padding: 12px 90px;
         font-size: 26px;
+        display: inline-block;
+        margin-bottom: 20px;
     }
     .need .need_card .need_text h3 {
         font-size: 74px;
