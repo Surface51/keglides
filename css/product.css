@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-    /* padding: 70px 0; */
+    padding: 70px 0;
 }
 .pro_banner::after {
     content: " ";
@@ -20,7 +20,7 @@
 }
 
 .pro_banner .pro_text h1{
-    font-size: 214px;
+    font-size: 150px;
     font-family: 'riftbold';
     font-weight: 700;
     color: white;
@@ -46,15 +46,16 @@
 }
 
 .pro_detail .detail_head h2{
-    font-size: 109px;
-    font-weight: bold;
+    font-size: 90px;
+    font-weight: 900;
+    text-shadow: 2px 0 #172a58;
     color: #172A58;
     padding-bottom: 59px;
     padding-top: 107.5px;
 }
 .pro_detail .detail_head p{
     font-size: 28px;
-    font-family: unset;
+    font-family: 'Trade Gothic Next';
 
 }
 .pro_detail .detail_head p span{
@@ -142,7 +143,7 @@ color: white;
 /* MEdia Queries */
 @media(max-width:1440px){
     .pro_banner {
-        padding: 100px 0;
+        padding: 0 0;
     }
     .pro_banner .pro_text h1 {
         font-size: 150px;
@@ -169,7 +170,7 @@ color: white;
 
 @media(max-width:1024px){
     .pro_banner {
-        padding: 80px 0;
+        padding: 0 0;
     }
     .pro_banner .pro_text h1 {
         font-size: 125px;
@@ -195,7 +196,7 @@ color: white;
         font-size: 150px;
     }
     .pro_banner .pro_text h1 {
-        font-size: 75px;
+        font-size: 60px;
     }
     .pro_detail .detail_img {
         max-width: 466px;
@@ -242,9 +243,6 @@ color: white;
     }
 }
 @media(max-width:768px){
-    .pro_banner {
-        padding: 100px 0;
-    }
     
    
     .pro_detail .detail_head h2 {
@@ -299,7 +297,9 @@ color: white;
 
 @media(max-width:425px){
     .pro_banner .pro_text h1 {
-        font-size: 61px;
+        font-size: 60px;
+        padding-top: 80px;
+    padding-bottom: 80px;
     }
     .pro_detail .detail_img {
         max-width: 225px;
@@ -348,12 +348,12 @@ color: white;
 }
 
 @media(max-width:375px){
-    .pro_banner {
-        padding: 75px 0;
-    }
+
 
     .pro_banner .pro_text h1 {
-        font-size: 45px;
+        font-size: 40px;
+        padding-top: 80px;
+    padding-bottom: 80px;
     }
     .pro_detail .detail_img {
         max-width: 175px;
