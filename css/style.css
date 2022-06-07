@@ -101,7 +101,7 @@ header nav ul {
 }
 header nav ul li {
   display: inline-block;
-  margin-left: 35px;
+  margin-left: 60px;
 }
 
 header nav ul li a {
@@ -271,8 +271,8 @@ header .clear{
 }
 
 .food .foodservice h2 span {
-  font-weight: 700;
-  text-shadow: 2px 0 #172a58;
+  font-weight: 900;
+  /* text-shadow: 2px 0 #172a58; */
 }
 
 .food .foodservice p {
@@ -523,11 +523,11 @@ background-color: #00599c;
 }
 .contact_form input::placeholder{
   color: #172A58;
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 700;
 }
 .contact_form textarea::placeholder{
-  font-size: 20px;
+  font-size: 28px;
   font-weight: 700;
 }
 /* CONTACT FROM ENDS */
@@ -610,6 +610,9 @@ footer .copyright p {
   text-align: center;
   margin: 0 auto;
   padding-top: 20px;
+}
+footer .copyright a{
+  color: white;
 }
 
 @media (max-width: 1885px) {
@@ -831,6 +834,15 @@ header .header_image{
   } */
   .contact_forms .form-control {
     font-size: 24px;
+  }
+  .contact_form input::placeholder{
+    
+    font-size: 22px;
+    
+  }
+  .contact_form textarea::placeholder{
+    font-size: 22px;
+   
   }
   .warning .warning_image {
     padding-top: 60px;
@@ -1084,13 +1096,13 @@ footer .icons li a img {
     display: block;
     border-bottom: 1px solid gray;
   }
-  header nav ul{
+  header nav ul {
     position: absolute;
-    width: calc(100% + 35px);
+    width: calc(100% + 61px);
     top: 132px;
     z-index: 999999;
-    left: -35px;
-  }
+    left: -61px;
+}
   nav ul li a {
     padding: 15px 60px !important;
     line-height: 20px;
@@ -1206,6 +1218,9 @@ footer {
   i.fa.fa-bars {
     
     font-size: 26px;
+}
+header .header_image {
+  max-width: 260px;
 }
 header nav ul li a {
   font-size: 20px;
@@ -1339,6 +1354,9 @@ header nav ul li a {
     top: 109px;
     
 }
+.nav-mobile{
+  top: 25px;
+}
   .slick-dots li.slick-active button:before {
     font-size: 75px;
     /* width: 15px; */
@@ -1397,7 +1415,6 @@ nav ul li {
 }
 nav ul li a {
   display: block;
-  padding: 0 20px;
   line-height: 70px;
   background: #ffffff;
   color: #463f3f;
@@ -1407,8 +1424,8 @@ nav ul li a {
   */
 }
 nav ul li a:hover {
-  background: #f2f2f2;
-  color: #172a58;
+  border-bottom: 2px solid #00599c;
+
 }
 nav ul li a:not(:only-child):after {
   padding-left: 4px;
