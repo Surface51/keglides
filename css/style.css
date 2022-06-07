@@ -8,6 +8,10 @@
   margin: 0;
   
 }
+.clear{
+  clear: both;
+}
+
 
 img {
   width: 100%;
@@ -79,63 +83,44 @@ a:hover {
 
 /* Global css end */
 
-/* header css start */
-/* header .navbar {
-  padding: 42px 0;
-} */
+/* HEADER SECTION STARTS FROM HERE */
 header{
   padding: 35px 0 30px;
 }
-header nav .collapse {
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  /* position: absolute; */
+  z-index: 1;
+  width: 100%;
+}
+header nav ul {
   justify-content: end;
 }
-
-header .navbar .collapse ul {
-  margin-top: 70px;
+header nav ul li {
+  display: inline-block;
+  margin-left: 35px;
 }
 
-header nav .collapse li a {
+header nav ul li a {
+  color:#172a58;
+  
   font-size: 32px;
-  font-family: 'rift';
-  margin: 0 52px;
+  text-decoration: none;
+  
+}
+header nav .nav-btn a {
+  border: 1px solid;
+  padding: 11px 34px;
+  border-radius: 4px;
   color: black;
-  position: relative;
 }
-nav.navbar.navbar-expand-md {
-  padding: 0;
-}
-.navbar-expand-md .navbar-nav a {
-padding: 0 !important;
-border-bottom: 4px solid white;
-}
-/* header nav .collapse li a:hover {
-  border-bottom: 4px solid #007DC5 !important;
-  padding: 0 !important;
-} */
-
-header nav .collapse ul li a::before {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 100%;
-  height: 4px;
-  bottom: 0;
-  left: 0;
-  background-color: #00599c;
-  transform: scaleX(0);
-  transform-origin: top left;
-  transition: transform 0.3s ease;
-}
-
-.collapse li a:hover::before {
-  transform: scaleX(1);
-}
-
-ul.navbar-nav li:last-child a {
-  margin-right: 0;
-}
-
-/* header css ends */
+header .clear{
+  display: none;
+} 
+/* HEADER SECTION ENDS HERE */
 
 /* Banner css start */
 .banner {
@@ -636,9 +621,7 @@ footer .copyright p {
     font-size: 32px;
   }
 
-  nav .navbar-brand {
-    max-width: 500px;
-  }
+  
 
   .banner .banner_text h1 {
     font-size: 100px;
@@ -735,6 +718,9 @@ footer .copyright p {
   /* header {
     height: 85px;
 } */
+header .header_image{
+  max-width: 500px;
+}
   header nav .collapse li a {
     font-size: 25px;
   }
@@ -879,12 +865,17 @@ footer .icons li a img {
     padding: 38px 0;
   } */
 }
-@media(max-width:1280px){
-  header{
-    height: 150px !important;
-  }
-}
+
 @media (max-width: 1024px) {
+  header .header_image{
+    max-width: 300px;
+  }
+
+  header nav ul li a {
+    font-size: 26px;
+    font-weight: 500;
+    
+}
   header nav .collapse li a {
     font-size: 20px;
   }
@@ -1079,123 +1070,33 @@ footer .icons li a img {
 
   }
 @media (max-width: 768px) {
-  /* .navbar-toggler {
-        padding: 0.25rem 0.75rem;
-        font-size: 1.25rem;
-        line-height: 1;
-        background-color: #172A58;
-        border: 1px solid #00599C;
-        border-radius: 0.25rem;
-    } */
-    .navbar-expand-md .navbar-nav a {
-      padding: 0 !important;
-      border-bottom:unset;
-      }
-    .stopscroll {
-        height: 100vh;
-        overflow: hidden;
-    }
-  header .navbar {
-    padding: 20px 0;
-  }
-
-  header {
-    position: relative;
-  }
-  header button {
-    position: absolute;
-    top: -43px;
-    right: 150px;
-  }
-
-  .navbar-toggler {
-    position: absolute;
-    right: -3%;
-    top: 30px;
-    z-index: 99999;
-    border: none;
-    outline: none;
-  }
-  header button span {
-    width: 30px;
-    height: 2px;
-    background: #172a58;
+  header .clear{
     display: block;
-    border: 1px solid gray;
-    transition: all ease 0.5s;
-    margin-bottom: 6px;
-    cursor: pointer;
-  }
-  header .navbar-expand-md .navbar-nav .nav-link {
-    margin: 0;
-  }
-  header .navbar-collapse ul {
-      width: 50%;
-  }
-  header .navbar-collapse ul li:nth-child(2){
-      border-top: 1px solid white;
-      /* border-bottom: 1px solid white; */
-  }
-  header nav .collapse {
-    justify-content: center;
-  }
-  header .navbar-collapse {
-    background-color: #172a58;
-    position: absolute;
-    z-index: 999;
-    top: 115px;
-    left: -54px;
-    /* height: 100vh; */
-    /* transition: all ease-out 0.2s; */
-    /* opacity: 0; */
-    width: calc(100% + 106px);
-    /* transform: scale(0.1); */
-    text-align: center;
+  } 
+  header nav{
+    display: unset;
     
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
   }
-  header .navbar-collapse.show {
-    opacity: 1;
-    /* transform: scale(1.3); */
-    /* height: 100vh; */
+  header .header_image{
+    float: left;
   }
-  header .navbar-expand-md .navbar-nav .nav-link {
-    padding: 24px 0;
-    font-size: 17px;
-    color: #fff;
-    text-align: center;
+  header nav ul li{
+    display: block;
+    border-bottom: 1px solid gray;
   }
-  header .navbar-brand {
-    z-index: 6;
+  header nav ul{
+    position: absolute;
+    width: calc(100% + 35px);
+    top: 132px;
+    z-index: 999999;
+    left: -35px;
   }
-
-  /* .change span:nth-child(1) {
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-46deg) translate(-3px, 7px);
+  nav ul li a {
+    padding: 15px 60px !important;
+    line-height: 20px;
   }
-  .change span:nth-child(2) {
-    opacity: 0;
-  }
-  .change span:nth-child(3) {
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-4px, -8px);
-  } */
-  header .navbar-toggler:focus,
-  .navbar-toggler:hover {
-    outline: 0;
-    border: 0;
-  }
-
-  .next-arrow3 {
-    right: 30px;
-  }
-
-  .prev-arrow3 {
-    left: 25px;
-  }
+  
+/* nav code here */
   .banner_text {
     padding: 0 40px;
 }
@@ -1302,12 +1203,13 @@ footer {
     max-width: 285px;
   } */
 
-  .prev-arrow3 {
-    left: 16px;
-  }
-  .next-arrow3 {
-    right: 16px;
-  }
+  i.fa.fa-bars {
+    
+    font-size: 26px;
+}
+header nav ul li a {
+  font-size: 20px;
+}
   .slick-dots li.slick-active button:before {
     font-size: 75px;
   }
@@ -1433,12 +1335,16 @@ footer {
 }
 
 @media (max-width: 375px) {
+  header nav ul {
+    top: 109px;
+    
+}
   .slick-dots li.slick-active button:before {
     font-size: 75px;
     /* width: 15px; */
   }
-  nav .navbar-brand {
-    max-width: 240px;
+  header .header_image {
+    max-width: 200px;
 }
   
 .banner .banner_text h1 {
@@ -1470,3 +1376,164 @@ footer {
     max-width: 200px;
 }
 }
+
+
+
+
+
+/* new nav code start */
+
+
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+  position: relative;
+}
+nav ul li a {
+  display: block;
+  padding: 0 20px;
+  line-height: 70px;
+  background: #ffffff;
+  color: #463f3f;
+  text-decoration: none;
+  /*
+  The full path of this code is nav ul li a:not(:only-child):after. This means that the code will apply to any a tag in our nav list that is NOT an only child, aka any dropdown. The :after means it comes after the output of the tag. I’ve decided that to specify any nav item as a dropdown, it will be followed by a unicode arrow – ▾ (#9662).
+  */
+}
+nav ul li a:hover {
+  background: #f2f2f2;
+  color: #172a58;
+}
+nav ul li a:not(:only-child):after {
+  padding-left: 4px;
+  content: ' ▾';
+}
+nav ul li ul li {
+  min-width: 190px;
+}
+nav ul li ul li a {
+  padding: 15px 60px;
+  line-height: 20px;
+}
+
+.nav-dropdown {
+  position: absolute;
+  z-index: 1;
+  /* Guarantees that the dropdown will display on top of any content. */
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+  display: none;
+}
+
+.nav-mobile {
+  display: none;
+  position: absolute;
+  top: 100;
+  right: 0;
+  background: #fff;
+  height: 70px;
+  width: 70px;
+}
+
+@media only screen and (max-width: 800px) {
+  .nav-mobile {
+    display: block;
+  }
+
+  nav {
+    width: 100%;
+    
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul li {
+    float: none;
+  }
+  nav ul li a {
+    padding: 15px;
+    line-height: 20px;
+  }
+  nav ul li ul li a {
+    padding-left: 30px;
+  }
+}
+#nav-toggle {
+  position: absolute;
+  left: 18px;
+  top: 22px;
+  cursor: pointer;
+  padding: 10px 35px 16px 0px;
+}
+#nav-toggle span,
+#nav-toggle span:before,
+#nav-toggle span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: #463f3f;
+  position: absolute;
+  display: block;
+  content: '';
+  transition: all 300ms ease-in-out;
+}
+#nav-toggle span:before {
+  top: -10px;
+}
+#nav-toggle span:after {
+  bottom: -10px;
+}
+#nav-toggle.active span {
+  background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+  top: 0;
+}
+#nav-toggle.active span:before {
+  transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+  transform: rotate(-45deg);
+}
+
+@media screen and (min-width: 800px) {
+  .nav-list {
+    display: block !important;
+  }
+}
+/* 
+.navigation – the outer wrapper for the navbar. Specifies the height and color, and will stretch the full width of the viewport.
+*/
+.navigation {
+  height: 70px;
+  background: #ffffff;
+}
+
+/*
+.nav-container – the inner wrapper for the navbar. Defines how far the actual content should stretch.
+*/
+.nav-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+/* 
+.brand {
+  position: absolute;
+  padding-left: 20px;
+  float: left;
+  line-height: 70px;
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+.brand a,
+.brand a:visited {
+  color: #463f3f;
+  text-decoration: none;
+} */
+
