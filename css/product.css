@@ -299,9 +299,8 @@ color: white;
 
 @media(max-width:425px){
     .pro_banner .pro_text h1 {
-        font-size: 60px;
-        padding-top: 80px;
-    padding-bottom: 80px;
+        font-size: 50px;
+        
     }
     .pro_detail .detail_img {
         max-width: 225px;
@@ -351,12 +350,11 @@ color: white;
 
 @media(max-width:375px){
 
-
+/* 
     .pro_banner .pro_text h1 {
         font-size: 40px;
-        padding-top: 80px;
-    padding-bottom: 80px;
-    }
+       
+    } */
     .pro_detail .detail_img {
         max-width: 175px;
     padding-top: 36px;

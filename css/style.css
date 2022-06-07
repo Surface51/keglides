@@ -642,20 +642,18 @@ footer .copyright p {
 
   .banner .banner_text h1 {
     font-size: 100px;
-    margin-left: 100px;
+
     /* line-height: 130px; */
   }
 
   .banner .banner_text h2 {
     font-size: 200px;
-    margin-left: 100px;
+    
     line-height: 200px;
     margin-bottom: 0;
   }
 
-  .banner_text p {
-    margin-left: 100px;
-  }
+
 
   .next-arrow3 {
     right: 55px;
@@ -891,9 +889,6 @@ footer .icons li a img {
     font-size: 20px;
   }
 
-  nav .navbar-brand {
-    max-width: 250px;
-  }
 
   header nav .collapse li a {
     margin-right: 20px;
@@ -912,7 +907,7 @@ footer .icons li a img {
     padding: 0 60px;
 }
   .banner .banner_text h1 {
-    font-size: 50px;
+    font-size: 75px;
     /* line-height: 75px; */
   }
 
@@ -1139,7 +1134,7 @@ footer .icons li a img {
   }
   header .navbar-collapse ul li:nth-child(2){
       border-top: 1px solid white;
-      border-bottom: 1px solid white;
+      /* border-bottom: 1px solid white; */
   }
   header nav .collapse {
     justify-content: center;
@@ -1204,14 +1199,18 @@ footer .icons li a img {
     padding: 0 40px;
 }
   .banner .banner_text h1 {
-    margin-left: 50px;
+  
+    margin-bottom: 10px;
+    font-size: 75px;
   }
   .banner .banner_text h2 {
-    margin-left: 50px;
+    
+    font-size: 100px;
   }
   .banner_text p {
-    margin-left: 50px;
-    max-width: 245px;
+    font-size: 28px;
+  
+    max-width: 300px;
   }
   .customer .customer_text h5 {
     padding-bottom: 20px;
@@ -1268,7 +1267,7 @@ footer .icons li a img {
   max-width: 50px;
 }
 footer {
-  padding: 50px 0;
+  padding: 25px 0;
 }
   .footer_content {
     flex-direction: column;
@@ -1276,7 +1275,6 @@ footer {
 
   footer .logo {
     margin: 0 auto;
-    padding-bottom: 20px;
   }
 
   footer .icons {
@@ -1289,6 +1287,7 @@ footer {
 
   footer .copyright p {
     font-size: 14px;
+    padding: 0 0;
   }
 }
 
@@ -1298,9 +1297,9 @@ footer {
         border: 1px solid #172A58;
     } */
 
-  nav .navbar-brand {
-    max-width: 175px;
-  }
+  /* nav .navbar-brand {
+    max-width: 285px;
+  } */
 
   .prev-arrow3 {
     left: 16px;
@@ -1327,20 +1326,22 @@ footer {
   }
   .banner_text {
     padding: 0 0px;
+    margin-left: 50px;
+
 }
   .banner .banner_text h1 {
-    font-size: 36px;
+    font-size: 75px;
     /* line-height: 50px; */
   }
 
   .banner .banner_text h2 {
-    font-size: 80px;
+    font-size: 100px;
     margin-bottom: -15px;
   }
 
   .banner_text p {
-    font-size: 16px;
-    max-width: 225px;
+    font-size: 28px;
+    max-width: 300px;
   }
 
   .food .foodservice h2 {
@@ -1358,7 +1359,11 @@ footer {
   .food .performance h4 {
     font-size: 30px;
   }
+  .food .performance h4 span{
 
+  
+  text-shadow: 1px 0 #172a58;
+  }
   .food .performance p {
     font-size: 16px;
     max-width: 680px;
@@ -1431,20 +1436,36 @@ footer {
     font-size: 75px;
     /* width: 15px; */
   }
+  nav .navbar-brand {
+    max-width: 240px;
+}
   
-  .banner .banner_text h1 {
-    font-size: 30px;
-  }
+.banner .banner_text h1 {
+  font-size: 75px;
+  /* line-height: 50px; */
+}
 
-  .banner .banner_text h2 {
-    font-size: 60px;
-  }
+.banner .banner_text h2 {
+  font-size: 100px;
+  margin-bottom: -15px;
+}
 
-  .banner_text p {
-    max-width: 200px;
-  }
+.banner_text p {
+  font-size: 28px;
+  max-width: 300px;
+}
 
   .slick-next {
     right: 5px;
   }
+}
+@media (max-width: 320px) {
+  .banner_text {
+    
+    margin-left: 20px;
+
+}
+  nav .navbar-brand {
+    max-width: 200px;
+}
 }
