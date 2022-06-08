@@ -1215,9 +1215,10 @@ footer {
     max-width: 285px;
   } */
 
-  i.fa.fa-bars {
-    
-    font-size: 26px;
+  header nav ul {
+
+    top: 124px;
+ 
 }
 header .header_image {
   max-width: 260px;
