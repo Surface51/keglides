@@ -21,8 +21,7 @@
 }
 
 .contact .contact_text h1 {
-    font-size: 150px;
-    font-family: 'riftbold';
+    font-size: 160px;
     font-weight: 700;
     color: white;
     text-align: center;
@@ -40,16 +39,20 @@
 .contact_form .contact_form_text h6{
     padding-top: 75px !important;
 }
-
+@media(max-width:1885px){
+    .contact .contact_text h1 {
+        font-size: 100px;
+    }
+}
 
 @media(max-width:1440px){
     .contact .contact_text h1 {
-        font-size: 150px;
+        font-size: 80px;
     }
 }
 @media(max-width:1024px){
     .contact .contact_text h1 {
-        font-size: 100px;
+        font-size: 75px;
     }
 }
 @media(max-width:768px){
@@ -57,7 +60,7 @@
         padding: 0;
     }
     .contact .contact_text h1 {
-        font-size: 60px;
+        font-size: 75px;
     }
     .contact_form .contact_form_text p {
         font-size: 18px !important;
@@ -66,5 +69,6 @@
 @media(max-width:425px){
     .contact .contact_text h1 {
         font-size: 50px;
+        padding: 50px 0;
     }
 }

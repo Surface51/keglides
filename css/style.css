@@ -1,14 +1,13 @@
-
-
 /* Global css start */
 * {
   box-sizing: border-box;
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
-  
+
 }
-.clear{
+
+.clear {
   clear: both;
 }
 
@@ -38,6 +37,7 @@ h4,
 h5,
 h6 {
   line-height: 1;
+  font-family: 'Barlow Condensed';
 }
 
 h1,
@@ -56,7 +56,7 @@ a {
 }
 
 p {
-  font-family: 'Trade Gothic Next LT pro';
+  font-family: 'Roboto';
 }
 
 li {
@@ -84,9 +84,10 @@ a:hover {
 /* Global css end */
 
 /* HEADER SECTION STARTS FROM HERE */
-header{
+header {
   padding: 35px 0 30px;
 }
+
 header nav {
   display: flex;
   justify-content: space-between;
@@ -96,30 +97,35 @@ header nav {
   z-index: 1;
   width: 100%;
 }
+
 header nav ul {
   justify-content: end;
 }
+
 header nav ul li {
   display: inline-block;
   margin-left: 60px;
 }
 
 header nav ul li a {
-  color:#172a58;
-  
+  color: #172a58;
+
   font-size: 32px;
   text-decoration: none;
-  
+
 }
+
 header nav .nav-btn a {
   border: 1px solid;
   padding: 11px 34px;
   border-radius: 4px;
   color: black;
 }
-header .clear{
+
+header .clear {
   display: none;
-} 
+}
+
 /* HEADER SECTION ENDS HERE */
 
 /* Banner css start */
@@ -200,7 +206,7 @@ header .clear{
   opacity: 0.75;
   font-size: 100px;
   color: #ffffffcc;
-  
+
   border: 4px solid white;
   border-radius: 50px;
   background: unset;
@@ -218,9 +224,10 @@ header .clear{
     padding-top: 100px;
     padding-bottom: 168px;
 } */
-.banner_text  {
+.banner_text {
   padding: 0 235px;
 }
+
 .banner .banner_text h1 {
   font-size: 160px;
   font-weight: 500;
@@ -231,9 +238,9 @@ header .clear{
   font-size: 340px;
   font-weight: 700;
   color: white;
-  line-height: 284px;
+  line-height: 200px;
   margin-top: -25px;
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .banner_text p {
@@ -246,11 +253,13 @@ header .clear{
   margin-top: 2px;
   opacity: 1;
 }
+
 .slick-dots li button:before {
   width: 25px;
   height: 25px;
   opacity: 1;
 }
+
 /* Banner css ends */
 
 /* FOODSERVICE CSS STARTS */
@@ -264,7 +273,6 @@ header .clear{
   font-size: 70px;
   font-weight: 500;
   color: #172a58;
-  font-family: 'rift';
   padding-bottom: 48px;
   max-width: 1366px;
   margin: 0 auto;
@@ -282,31 +290,52 @@ header .clear{
   margin: 0 auto;
   font-size: 38px;
   line-height: 1.5;
+  
+  padding-bottom: 50px;
 }
+
 .food .food-p2 {
   padding-top: 25px;
 }
-.food .foodservie_image {
-  padding-top: 80px;
-  max-width: 1436px;
-  margin: 0 auto;
-  padding-bottom: 105px;
+.food .foodservie_image{
+  padding:56.25% 0 0 0; 
+  position:relative;
+  text-align: center;
+    margin: 0 auto;
+}
+.food .foodservie_image iframe{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
+/* .food .foodservie_image iframe{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+
 }
 
 .food .foodservie_image img {
   width: 100%;
-}
+} */
 
 .food .performance h3 {
   text-align: center;
-  font-size: 52px;
+  font-size: 54px;
   font-weight: 700;
   color: #00599c;
+  padding-top: 50px;
+
 }
 
 .food .performance h4 {
-   text-align: center !important; 
-  font-size: 100px;
+  text-align: center !important;
+  font-size: 109px;
   font-weight: 500;
   color: #172a58;
   padding-top: 30px;
@@ -354,7 +383,7 @@ header .clear{
   color: #00599c;
   text-align: center;
   padding-bottom: 25.7px;
-  font-family: "rift";
+ 
 }
 
 .customer .customer_list_text {
@@ -368,9 +397,11 @@ header .clear{
 .cusotmers-wrapper {
   padding: 40px 70px 40px 0px;
 }
+
 .cusotmers-wrapper2 {
   padding: 40px 0px 40px 70px;
 }
+
 .customer .row .col-lg-6 h6 {
   width: 100%;
   color: #00599c;
@@ -495,9 +526,10 @@ header .clear{
 
 .contact_forms textarea.form-control {
   height: 250px;
-  
+
 }
-.contact_forms textarea::placeholder{
+
+.contact_forms textarea::placeholder {
   color: #172A58;
   font-size: 20px;
 }
@@ -512,24 +544,29 @@ header .clear{
   padding: 8px 0px;
   border: 0px;
 }
+
 .contact_forms .btn-primary:hover {
-background-color: #00599c;
+  background-color: #00599c;
 }
+
 .contact_forms .form-control {
   padding: 15px 15px;
   font-size: 32px;
   margin-bottom: 15px;
-    height: 60px;
+  height: 60px;
 }
-.contact_form input::placeholder{
+
+.contact_form input::placeholder {
   color: #172A58;
   font-size: 28px;
   font-weight: 700;
 }
-.contact_form textarea::placeholder{
+
+.contact_form textarea::placeholder {
   font-size: 28px;
   font-weight: 700;
 }
+
 /* CONTACT FROM ENDS */
 
 /* WARNING CSS STARTS */
@@ -589,16 +626,19 @@ footer .icons ul li {
   color: white;
   position: relative;
 }
-footer .icons li a img{
+
+footer .icons li a img {
   max-width: 50px;
 }
-footer .icons ul li span{
+
+footer .icons ul li span {
   position: absolute;
-    right: 0;
-    top: 0;
-    opacity: 0;
+  right: 0;
+  top: 0;
+  opacity: 0;
 }
-footer .icons ul li:hover span{
+
+footer .icons ul li:hover span {
   opacity: 1 !important;
   cursor: pointer;
 }
@@ -611,7 +651,8 @@ footer .copyright p {
   margin: 0 auto;
   padding-top: 20px;
 }
-footer .copyright a{
+
+footer .copyright a {
   color: white;
 }
 
@@ -624,7 +665,7 @@ footer .copyright a{
     font-size: 32px;
   }
 
-  
+
 
   .banner .banner_text h1 {
     font-size: 100px;
@@ -634,7 +675,7 @@ footer .copyright a{
 
   .banner .banner_text h2 {
     font-size: 200px;
-    
+
     line-height: 200px;
     margin-bottom: 0;
   }
@@ -650,7 +691,7 @@ footer .copyright a{
   }
 
   .food .foodservice h2 {
-    font-size: 55px;
+    font-size: 65px;
   }
 
   .food .foodservice p {
@@ -691,7 +732,7 @@ footer .copyright a{
   }
 
   .customer .row .col-lg-6 p {
-    font-size: 23px;
+    font-size: 25px;
   }
 
   .contact_form .contact_form_text h6 {
@@ -718,12 +759,14 @@ footer .copyright a{
 }
 
 @media (max-width: 1440px) {
+
   /* header {
     height: 85px;
 } */
-header .header_image{
-  max-width: 500px;
-}
+  header .header_image {
+    max-width: 500px;
+  }
+
   header nav .collapse li a {
     font-size: 25px;
   }
@@ -747,6 +790,7 @@ header .header_image{
   .prev-arrow3 {
     left: 15px;
   }
+
   /* .slick-dots li button:before {
     font-size: 90px;
 } */
@@ -763,18 +807,19 @@ header .header_image{
   .banner_text p {
     font-size: 30px;
   }
+
   .food {
     padding-top: 60px;
     padding-bottom: 60px;
-}
+  }
+
   .food .foodservice p {
     max-width: 890px;
   }
 
   .food .foodservie_image {
     max-width: 950px;
-    padding-top: 60px;
-    padding-bottom: 40px;
+    
   }
 
   .food .performance h3 {
@@ -795,30 +840,31 @@ header .header_image{
   }
 
   .customer .customer_text h5 {
-    font-size: 80px;
+    font-size: 65px;
   }
 
   .customer .customer_text p {
-    font-size: 33px;
+    font-size: 35px;
   }
 
   .customer .row .col-lg-6 h6 {
-    font-size: 36px;
+    font-size: 35px;
   }
 
   .nextpages .contact_image h6 {
-    font-size: 60px;
+    font-size: 65px;
   }
 
   .nextpages .product_image h6 {
-    font-size: 60px;
+    font-size: 65px;
   }
 
   .nextpages {
     padding-bottom: 50px;
-}
+  }
+
   .contact_form .contact_form_text h6 {
-    font-size: 60px;
+    font-size: 65px;
     /* max-width: 890px; */
   }
 
@@ -835,26 +881,32 @@ header .header_image{
   .contact_forms .form-control {
     font-size: 24px;
   }
-  .contact_form input::placeholder{
-    
+
+  .contact_form input::placeholder {
+
     font-size: 22px;
-    
+
   }
-  .contact_form textarea::placeholder{
+
+  .contact_form textarea::placeholder {
     font-size: 22px;
-   
+
   }
+
   .warning .warning_image {
     padding-top: 60px;
   }
+
   .warning .warning_text p {
     font-size: 16px;
   }
+
   .footer_content {
     /* max-width: 890px; */
     margin: 0 auto;
   }
-  footer .copyright p{
+
+  footer .copyright p {
     padding: 20px 0;
   }
 
@@ -866,12 +918,15 @@ header .header_image{
     font-size: 36px;
     margin-right: 20px;
   }
+
   footer .logo {
     max-width: 430px;
-}
-footer .icons li a img {
-  max-width: 40px;
-}
+  }
+
+  footer .icons li a img {
+    max-width: 40px;
+  }
+
   /* footer .icons {
     margin-right: -45px;
     padding: 38px 0;
@@ -879,15 +934,16 @@ footer .icons li a img {
 }
 
 @media (max-width: 1024px) {
-  header .header_image{
+  header .header_image {
     max-width: 300px;
   }
 
   header nav ul li a {
     font-size: 26px;
     font-weight: 500;
-    
-}
+
+  }
+
   header nav .collapse li a {
     font-size: 20px;
   }
@@ -906,9 +962,11 @@ footer .icons li a img {
     font-size: 35px;
     left: 30px;
   }
+
   .banner_text {
     padding: 0 60px;
-}
+  }
+
   .banner .banner_text h1 {
     font-size: 75px;
     /* line-height: 75px; */
@@ -940,23 +998,27 @@ footer .icons li a img {
   } */
 
   .food .foodservice h2 {
-    font-size: 36px;
+    font-size: 45px;
     padding-bottom: 20px;
   }
 
   .food .foodservice p {
     font-size: 20px;
     max-width: 680px;
+    padding-bottom: 10px;
   }
+
   .food .food-p2 {
     padding-top: 20px;
-}
-  .food .foodservie_image {
-    max-width: 950px;
   }
+
+  .food .foodservie_image {
+    max-width: 750px;
+}
 
   .food .performance h3 {
     font-size: 26px;
+    padding-top: 10px;
   }
 
   .food .performance h4 {
@@ -1049,92 +1111,125 @@ footer .icons li a img {
     font-size: 18px;
   }
 }
-@media (max-width: 991px){
+
+@media (max-width: 991px) {
   .contact_forms .form-control {
-     
-      font-size: 18px;
-      
+
+    font-size: 18px;
+
   }
+
   .food {
     padding-top: 60px;
     padding-bottom: 60px;
-}
-.food .foodservie_image {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-.food .performance .performance_text {
-  padding-top: 0px;
-}
-.nextpages {
-  padding-bottom: 50px;
-}
-.contact_form .contact_form_text p {
-  padding-bottom: 15px;
-  padding-top: 15px;
-}
-.warning .warning_image {
-  padding-top: 60px;
-}
-.warning .warning_text p {
-  font-size: 14px;
+  }
+
+  .food .foodservie_image {
+  max-width: 600px;
+  }
+
+  .food .performance .performance_text {
+    padding-top: 0px;
+  }
+
+  .nextpages {
+    padding-bottom: 50px;
+  }
+
+  .contact_form .contact_form_text p {
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  .warning .warning_image {
+    padding-top: 60px;
+  }
+
+  .warning .warning_text p {
+    font-size: 14px;
+  }
+
 }
 
-  }
 @media (max-width: 768px) {
-  header .clear{
+  header .clear {
     display: block;
-  } 
-  header nav{
-    display: unset;
-    
   }
-  header .header_image{
+
+  header nav {
+    display: unset;
+
+  }
+
+  header .header_image {
     float: left;
   }
-  header nav ul li{
+
+  header nav ul li {
     display: block;
     border-bottom: 1px solid gray;
   }
+
   header nav ul {
     position: absolute;
     width: calc(100% + 61px);
     top: 132px;
     z-index: 999999;
     left: -61px;
-}
+  }
+
   nav ul li a {
     padding: 15px 60px !important;
     line-height: 20px;
   }
+
+  /* nav code here */
   
-/* nav code here */
   .banner_text {
     padding: 0 40px;
-}
+  }
+
   .banner .banner_text h1 {
-  
+
     margin-bottom: 10px;
     font-size: 75px;
   }
+
   .banner .banner_text h2 {
-    
+
     font-size: 100px;
   }
+
   .banner_text p {
     font-size: 28px;
-  
+
     max-width: 300px;
   }
+  .food .foodservice h2 {
+    font-size: 35px;
+
+}
+.food .performance h3 {
+  font-size: 20px;
+ 
+}
+.food .performance h4 {
+  font-size: 35px;
+}
   .customer .customer_text h5 {
     padding-bottom: 20px;
+    font-size: 35px;
   }
+  .customer .row .col-lg-6 h6 {
+    font-size: 20px;
+}
   .cusotmers-wrapper {
     padding: 20px 40px 0px 40px;
-}
-.cusotmers-wrapper2 {
-  padding: 20px 40px 0px 40px;
-}
+  }
+
+  .cusotmers-wrapper2 {
+    padding: 20px 40px 0px 40px;
+  }
 
   .nextpages .contact_image {
     margin-bottom: 20px;
@@ -1159,30 +1254,37 @@ footer .icons li a img {
     font-size: 14px;
     height: 30px;
   }
-  .contact_form input::placeholder{
-   
+
+  .contact_form input::placeholder {
+
     font-size: 14px;
-    
+
   }
-  .contact_form ::placeholder{
+
+  .contact_form ::placeholder {
     font-size: 14px !important;
-    
+
     height: 200px;
   }
+
   .warning .warning_text p {
     max-width: 583px;
     font-size: 14px;
     padding-bottom: 25px;
   }
+
   .warning .warning_image {
     padding-top: 50px;
-}
-.warning .warning_image img {
-  max-width: 50px;
-}
-footer {
-  padding: 25px 0;
-}
+  }
+
+  .warning .warning_image img {
+    max-width: 50px;
+  }
+
+  footer {
+    padding: 25px 0;
+  }
+
   .footer_content {
     flex-direction: column;
   }
@@ -1205,6 +1307,16 @@ footer {
   }
 }
 
+/* @media only screen and (max-width: 640px){
+
+  #id_50 span:nth-child(4), #id_7 span:nth-child(4), #id_9 span:nth-child(4), #id_8 span:nth-child(4), #id_12 span:nth-child(4), #id_13 span:nth-child(4), #id_16 span:nth-child(4){
+  
+  clear: left !important;
+  
+  }
+  
+  } */
+
 @media (max-width: 425px) {
   /* header .navbar-toggler {
         background-color: #172A58;
@@ -1218,36 +1330,44 @@ footer {
   header nav ul {
 
     top: 124px;
- 
-}
-header .header_image {
-  max-width: 260px;
-}
-header nav ul li a {
-  font-size: 20px;
-}
+
+  }
+
+  header .header_image {
+    max-width: 260px;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
   .slick-dots li.slick-active button:before {
     font-size: 75px;
   }
+
   .slick-dots li.slick-active button:before {
     font-size: 75px;
     margin-top: -2px;
     /* width: 15px; */
   }
+
   .slick-dots li {
     width: 25px;
 
     margin: 0 0px;
   }
+
   .slick-dots li button:before {
     width: 15px;
     height: 15px;
   }
+
   .banner_text {
     padding: 0 0px;
     margin-left: 50px;
 
-}
+  }
+
   .banner .banner_text h1 {
     font-size: 75px;
     /* line-height: 50px; */
@@ -1264,7 +1384,7 @@ header nav ul li a {
   }
 
   .food .foodservice h2 {
-    font-size: 26px;
+    font-size: 30px;
   }
 
   .food .foodservice p {
@@ -1278,22 +1398,26 @@ header nav ul li a {
   .food .performance h4 {
     font-size: 30px;
   }
-  .food .performance h4 span{
 
-  
-  text-shadow: 1px 0 #172a58;
+  .food .performance h4 span {
+
+
+    text-shadow: 1px 0 #172a58;
   }
+
   .food .performance p {
     font-size: 16px;
     max-width: 680px;
   }
+
   .food .foodservie_image {
-    padding-bottom: 50px;
-    padding-top: 50px;
+    max-width:280px;
   }
+
   .food .performance .performance_text {
     font-size: 14px;
   }
+
   .food .performance .performance_text {
     padding-top: unset;
   }
@@ -1313,13 +1437,16 @@ header nav ul li a {
   .customer .row .col-lg-6 p {
     font-size: 16px;
   }
+
   .contact_forms textarea.form-control {
     height: 150px;
   }
+
   .contact_form .contact_form_text p {
     padding-bottom: 20px;
     padding-top: 20px;
   }
+
   .nextpages .contact_image h6 {
     font-size: 30px;
   }
@@ -1327,20 +1454,25 @@ header nav ul li a {
   .nextpages .product_image h6 {
     font-size: 30px;
   }
+
   .nextpages {
     padding-bottom: 50px;
   }
+
   .contact_forms .form-control {
     padding: 5px 5px;
     margin-bottom: 10px;
     height: 45px;
   }
+
   .contact_forms .btn-primary {
     max-width: 100px;
   }
+
   .warning .warning_image {
     padding-top: 50px;
   }
+
   .warning .warning_text p {
     padding-bottom: 50px;
   }
@@ -1353,47 +1485,52 @@ header nav ul li a {
 @media (max-width: 375px) {
   header nav ul {
     top: 109px;
-    
-}
-.nav-mobile{
-  top: 25px;
-}
+
+  }
+
+  .nav-mobile {
+    top: 25px;
+  }
+
   .slick-dots li.slick-active button:before {
     font-size: 75px;
     /* width: 15px; */
   }
+
   header .header_image {
     max-width: 200px;
-}
-  
-.banner .banner_text h1 {
-  font-size: 75px;
-  /* line-height: 50px; */
-}
+  }
 
-.banner .banner_text h2 {
-  font-size: 100px;
-  margin-bottom: -15px;
-}
+  .banner .banner_text h1 {
+    font-size: 75px;
+    /* line-height: 50px; */
+  }
 
-.banner_text p {
-  font-size: 28px;
-  max-width: 300px;
-}
+  .banner .banner_text h2 {
+    font-size: 100px;
+    margin-bottom: -15px;
+  }
+
+  .banner_text p {
+    font-size: 28px;
+    max-width: 300px;
+  }
 
   .slick-next {
     right: 5px;
   }
 }
+
 @media (max-width: 320px) {
   .banner_text {
-    
+
     margin-left: 20px;
 
-}
+  }
+
   nav .navbar-brand {
     max-width: 200px;
-}
+  }
 }
 
 
@@ -1410,31 +1547,38 @@ nav ul {
   margin: 0;
   padding: 0;
 }
+
 nav ul li {
   float: left;
   position: relative;
 }
+
 nav ul li a {
   display: block;
   line-height: 70px;
   background: #ffffff;
   color: #463f3f;
   text-decoration: none;
+  border-bottom: 4px solid white;
   /*
   The full path of this code is nav ul li a:not(:only-child):after. This means that the code will apply to any a tag in our nav list that is NOT an only child, aka any dropdown. The :after means it comes after the output of the tag. I’ve decided that to specify any nav item as a dropdown, it will be followed by a unicode arrow – ▾ (#9662).
   */
 }
+
 nav ul li a:hover {
-  border-bottom: 2px solid #00599c;
+  border-bottom: 4px solid #00599c;
 
 }
+
 nav ul li a:not(:only-child):after {
   padding-left: 4px;
   content: ' ▾';
 }
+
 nav ul li ul li {
   min-width: 190px;
 }
+
 nav ul li ul li a {
   padding: 15px 60px;
   line-height: 20px;
@@ -1465,22 +1609,27 @@ nav ul li ul li a {
 
   nav {
     width: 100%;
-    
+
   }
+
   nav ul {
     display: none;
   }
+
   nav ul li {
     float: none;
   }
+
   nav ul li a {
     padding: 15px;
     line-height: 20px;
   }
+
   nav ul li ul li a {
     padding-left: 30px;
   }
 }
+
 #nav-toggle {
   position: absolute;
   left: 18px;
@@ -1488,6 +1637,7 @@ nav ul li ul li a {
   cursor: pointer;
   padding: 10px 35px 16px 0px;
 }
+
 #nav-toggle span,
 #nav-toggle span:before,
 #nav-toggle span:after {
@@ -1501,21 +1651,28 @@ nav ul li ul li a {
   content: '';
   transition: all 300ms ease-in-out;
 }
+
 #nav-toggle span:before {
   top: -10px;
 }
+
 #nav-toggle span:after {
   bottom: -10px;
 }
+
 #nav-toggle.active span {
   background-color: transparent;
 }
-#nav-toggle.active span:before, #nav-toggle.active span:after {
+
+#nav-toggle.active span:before,
+#nav-toggle.active span:after {
   top: 0;
 }
+
 #nav-toggle.active span:before {
   transform: rotate(45deg);
 }
+
 #nav-toggle.active span:after {
   transform: rotate(-45deg);
 }
@@ -1525,6 +1682,7 @@ nav ul li ul li a {
     display: block !important;
   }
 }
+
 /* 
 .navigation – the outer wrapper for the navbar. Specifies the height and color, and will stretch the full width of the viewport.
 */
@@ -1540,6 +1698,7 @@ nav ul li ul li a {
   max-width: 1000px;
   margin: 0 auto;
 }
+
 /* 
 .brand {
   position: absolute;
@@ -1554,4 +1713,3 @@ nav ul li ul li a {
   color: #463f3f;
   text-decoration: none;
 } */
-
