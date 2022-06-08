@@ -19,17 +19,10 @@ img {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'rift';
-  font-weight: 400;
-  font-size: 16px;
+
 }
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
+
 h1,
 h2,
 h3,
@@ -38,6 +31,44 @@ h5,
 h6 {
   line-height: 1;
   font-family: 'Barlow Condensed';
+}
+
+h1 {
+font-size: 214px;
+}
+h2 {
+font-size: 109px;
+}
+h3 {
+  font-size: 70px;
+}
+h4 {
+  font-size: 54px;
+}
+h5{
+  font-size: 50px;
+}
+
+p{
+  font-size: 16px;
+}
+.p1{
+  font-size: 35px;
+}
+.p2{
+  font-size:32px;
+}
+
+.p3{
+  font-size: 25px;
+}
+h1 span,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span{
+  font-weight: bold;
 }
 
 h1,
@@ -155,75 +186,7 @@ header .clear {
 
 }
 
-.banner .slick-list.draggable {
-  width: 80%;
-  margin: 0 auto;
-}
 
-.slick-dots {
-  bottom: -95px;
-}
-
-/* .slick-prev:before {
-     content: 'url("data:image/svg+xml,%3Ci class='fa-solid fa-angle-left'%3E%3C/i%3E")'; 
-    opacity: 1;
-    font-size: 90px;
-} */
-.prev-arrow3 {
-  position: absolute;
-  color: white;
-  width: 20px;
-  font-size: 47px;
-  top: 45%;
-  left: 54px;
-}
-
-.next-arrow3 {
-  position: absolute;
-  color: white;
-  width: 20px;
-  font-size: 58px;
-  top: 44%;
-  right: 71px;
-}
-
-/* .slick-next:before {
-     content: '>'; 
-    opacity: 1;
-    font-size: 90px;
-} */
-.slick-dots li {
-  position: relative;
-  display: inline-block;
-  width: 26px;
-  height: 33px;
-  margin: 0 8px;
-  padding: 0;
-  cursor: pointer;
-}
-
-.slick-dots li button:before {
-  opacity: 0.75;
-  font-size: 100px;
-  color: #ffffffcc;
-
-  border: 4px solid white;
-  border-radius: 50px;
-  background: unset;
-  color: unset;
-
-}
-
-.slick-dots li.slick-active button:before {
-  border: unset;
-  color: white;
-  left: -5px;
-}
-
-/* .banner .banner_text {
-    padding-top: 100px;
-    padding-bottom: 168px;
-} */
 .banner_text {
   padding: 0 235px;
 }
@@ -243,22 +206,13 @@ header .clear {
   margin-bottom: 25px;
 }
 
-.banner_text p {
-  font-size: 50px;
+.banner_text h5 {
   font-weight: 700;
+  margin-top: 40px;
   color: white;
 }
 
-.slick-dots li.slick-active button:before {
-  margin-top: 2px;
-  opacity: 1;
-}
 
-.slick-dots li button:before {
-  width: 25px;
-  height: 25px;
-  opacity: 1;
-}
 
 /* Banner css ends */
 
@@ -268,35 +222,28 @@ header .clear {
   padding-bottom: 94px;
 }
 
-.food .foodservice h2 {
+.food .foodservice h3 {
   text-align: center;
-  font-size: 70px;
-  font-weight: 500;
+  
   color: #172a58;
   padding-bottom: 48px;
   max-width: 1366px;
   margin: 0 auto;
 }
 
-.food .foodservice h2 span {
-  font-weight: 900;
-  /* text-shadow: 2px 0 #172a58; */
-}
 
-.food .foodservice p {
+
+.food .foodservice .p1 {
   width: 100%;
   max-width: 1408px;
   text-align: center;
   margin: 0 auto;
-  font-size: 38px;
   line-height: 1.5;
   
   padding-bottom: 50px;
 }
 
-.food .food-p2 {
-  padding-top: 25px;
-}
+
 .food .foodservie_image{
   padding:56.25% 0 0 0; 
   position:relative;
@@ -324,31 +271,20 @@ height:100%;
   width: 100%;
 } */
 
-.food .performance h3 {
+.food .performance h2 {
   text-align: center;
-  font-size: 54px;
-  font-weight: 700;
-  color: #00599c;
-  padding-top: 50px;
-
+  color: #172a58;
+  padding-bottom: 50px;
 }
 
 .food .performance h4 {
   text-align: center !important;
-  font-size: 109px;
-  font-weight: 500;
-  color: #172a58;
+  color: #00599c;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.food .performance h4 span {
-  font-weight: 700;
-  text-shadow: 2px 0 #172a58;
-}
-
-.food .performance p {
-  font-size: 38px;
+.food .performance .p1 {
   line-height: 1.5;
   text-align: center !important;
   margin: 0 auto;
@@ -369,17 +305,13 @@ height:100%;
 /* FOODSERVICES CSS ENDS HERE */
 
 /* CUSTOMERS CSS STARTS HERE */
-.customer .customer_text h5 {
-  font-size: 109px;
-  /* font-weight: 700; */
+.customer .customer_text h2 {
   color: #172a58;
   text-align: center;
   padding-bottom: 27px;
 }
 
-.customer .customer_text p {
-  font-size: 54px;
-  font-weight: 700;
+.customer .customer_text h4 {
   color: #00599c;
   text-align: center;
   padding-bottom: 25.7px;
@@ -402,7 +334,7 @@ height:100%;
   padding: 40px 0px 40px 70px;
 }
 
-.customer .row .col-lg-6 h6 {
+.customer .row .col-lg-6 h4 {
   width: 100%;
   color: #00599c;
   font-size: 54px;
@@ -411,7 +343,7 @@ height:100%;
   padding-top: 41px;
 }
 
-.customer .row .col-lg-6 p {
+.customer .row .col-lg-6 .p1 {
   width: 100%;
   font-size: 35px;
 }
@@ -443,7 +375,7 @@ height:100%;
   mix-blend-mode: multiply;
 }
 
-.nextpages .contact_image h6 {
+.nextpages .contact_image h2 {
   font-size: 109px;
   font-weight: 700;
   padding: 111px 0;
@@ -452,7 +384,7 @@ height:100%;
   margin: 0 auto;
 }
 
-.nextpages .contact_image h6 {
+.nextpages .contact_image h2 {
   z-index: 1;
   position: relative;
 }
@@ -478,7 +410,7 @@ height:100%;
   mix-blend-mode: multiply;
 }
 
-.nextpages .product_image h6 {
+.nextpages .product_image h2 {
   font-size: 109px;
   font-weight: 700;
   padding: 111px 0;
@@ -487,7 +419,7 @@ height:100%;
   margin: 0 auto;
 }
 
-.nextpages .product_image h6 {
+.nextpages .product_image h2 {
   z-index: 1;
   position: relative;
 }
@@ -495,7 +427,7 @@ height:100%;
 /* NEXTPAGES ENDS HERE */
 
 /* FORM STARTS HERE */
-.contact_form .contact_form_text h6 {
+.contact_form .contact_form_text h2 {
   width: 100%;
   max-width: 1222px;
   font-weight: 700;
@@ -507,7 +439,7 @@ height:100%;
   padding-top: 25px;
 }
 
-.contact_form .contact_form_text p {
+.contact_form .contact_form_text .p2 {
   font-size: 32px;
   width: 100%;
   max-width: 1222px;
@@ -580,11 +512,11 @@ height:100%;
   max-width: 67px;
 }
 
-.warning .warning_text p {
+.warning .warning_text .p3 {
   width: 100%;
   max-width: 1302px;
   font-family: Source Sans Pro;
-  font-size: 19px;
+  
   text-align: center;
   margin: 0 auto;
   padding-bottom: 84px;

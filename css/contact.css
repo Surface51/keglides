@@ -21,7 +21,6 @@
 }
 
 .contact .contact_text h1 {
-    font-size: 160px;
     font-weight: 700;
     color: white;
     text-align: center;
@@ -33,12 +32,7 @@
     z-index: 1;
     position: relative;
 }
-.contact_form .contact_form_text p {
-    padding-top: 15px !important;
-}
-.contact_form .contact_form_text h6{
-    padding-top: 75px !important;
-}
+
 @media(max-width:1885px){
     .contact .contact_text h1 {
         font-size: 100px;

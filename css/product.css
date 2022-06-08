@@ -20,7 +20,6 @@
 }
 
 .pro_banner .pro_text h1{
-    font-size: 160px;
     font-weight: 700;
     color: white;
     text-align: center;
@@ -45,23 +44,13 @@
 }
 
 .pro_detail .detail_head h2{
-    font-size: 70px;
     font-weight: 900;
-    text-shadow: 2px 0 #172a58;
     color: #172A58;
     padding-bottom: 59px;
     padding-top: 107.5px;
 }
-.pro_detail .detail_head p{
-    font-size: 28px;
-    
 
-}
-.pro_detail .detail_head p span{
-    display: block;
-    font-weight: bold;
-    padding-top: 20px;
-}
+
 .pro_detail .detail_head .detail_logo{
     max-width: 128px;
     padding: 20px 0px;
@@ -104,14 +93,12 @@
 .need .need_card .need_img img{
     width: 100%;
 }
-.need .need_card .need_text h3{
-    font-size: 109px;
+.need .need_card .need_text h2{
     color: #172A58;
     padding-bottom: 61px;
     font-weight: bold;
 }
-.need .need_card .need_text p{
-    font-size: 32px;
+.need .need_card .need_text .p3{
     max-width: 1096px;
     margin: 0 auto;
     padding-bottom: 125px;
