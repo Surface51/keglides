@@ -1298,6 +1298,13 @@ font-size: 45px;
   padding: 55px 0;
 
 }
+.banner .banner_text h5 {
+  margin-top: 10px;
+}
+
+.banner {
+  padding: 60px 0 70px;
+}
   header nav ul {
 
     top: 124px;
