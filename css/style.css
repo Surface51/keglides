@@ -1705,11 +1705,12 @@ p.p1 {
   padding-top: 2em;
 }
 
-body.s51 button.btn.btn-primary {
+body.s51 .btn.btn-primary {
   font-size: 1.25em;
   width: 40%;
   margin-top: 1em;
   border-radius: 0;
+  text-transform: uppercase;
 }
 
 body.s51 .contact_forms input, body.s51 .contact_forms textarea  {
@@ -1736,6 +1737,13 @@ body.s51 .contact_forms textarea:placeholder {
   text-transform: uppercase !important;
   font-size: 1em;
   font-weight: 300;
+}
+
+@media (min-width: 1440px) {
+  .contact_form .contact_forms input::placeholder,
+  .contact_form .contact_forms textarea::placeholder {
+    font-size: 1.25em;
+  }
 }
 
 .contact_form .contact_forms input::placeholder,
@@ -1819,4 +1827,25 @@ body.s51 header nav ul li a {
     text-transform: uppercase;
     font-weight: 500;
     font-family: 'Barlow Condensed', sans-serif !important;
+}
+
+body.s51 .contact_form {
+  width: 100%;
+}
+
+body.s51 .contact_forms .btn-primary {
+
+}
+
+.foodservie_image {
+  margin-top: 2em !important;
+}
+
+.customer_text {
+  padding-top: 2em;
+}
+
+section.contact_form.contact-page {
+  max-width: 1200px;
+  margin: 0 auto;
 }

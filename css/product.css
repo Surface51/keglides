@@ -67,10 +67,6 @@
     color: white;
     background-color: #172A58;
     padding: 14px 120px;
-    font-size: 32px;
-    /* width: 100%;
-    max-width: 491px; */
-
 
 }
 
@@ -101,7 +97,7 @@
 .need .need_card .need_text .p3{
     max-width: 1096px;
     margin: 0 auto;
-    padding-bottom: 125px;
+    padding-bottom: 15px;
     display: inline-block;
     font-weight: 700;
 }
@@ -112,7 +108,7 @@
 color: white;
     background-color: #172A58;
     padding: 12px 120px;
-    font-size: 32px;
+    /* font-size: 32px; */
     display: inline-block;
 }
 /* Need Section End */
@@ -129,7 +125,7 @@ color: white;
 /* MEdia Queries */
 @media(max-width:1024px){
     .pro_banner .pro_text h1 {
-        font-size: 100px;
+        /* font-size: 100px; */
     }
 }
 @media(max-width:1440px){
@@ -137,25 +133,25 @@ color: white;
         padding: 0 0;
     }
     .pro_banner .pro_text h1 {
-        font-size: 80px;
+        /* font-size: 80px; */
     }
     .pro_detail .detail_head h2 {
-        font-size: 65px;
+        /* font-size: 65px; */
         padding-top: 70px;
     }
     .pro_detail .detail_head p {
-        font-size: 28px;
+        /* font-size: 28px; */
     }
     .pro_detail .detail_head .detail_btn a {
         padding: 10px 60px;
-        font-size: 28px;
+        /* font-size: 28px; */
     }
     .need .need_card .need_text h3 {
-        font-size: 65px;
+        /* font-size: 65px; */
     }
     .need .need_card .need_text .need_btn a {
         padding: 10px 60px;
-        font-size: 28px;
+        /* font-size: 28px; */
     }
 }
 
@@ -164,13 +160,13 @@ color: white;
         padding: 0 0;
     }
     .pro_banner .pro_text h1 {
-        font-size: 75px;
+        /* font-size: 75px; */
     }
     .pro_detail .detail_head h2 {
-        font-size: 60px;
+        /* font-size: 60px; */
     }
     .need .need_card .need_text h3 {
-        font-size: 75px;
+        /* font-size: 75px; */
     }
     /* .contact_form .contact_form_text h6 {
         font-size: 60px !important;
@@ -187,7 +183,7 @@ color: white;
         font-size: 150px;
     } */
     .pro_banner .pro_text h1 {
-        font-size: 60px;
+        /* font-size: 60px; */
     }
     .pro_detail .detail_img {
         max-width: 466px;
@@ -199,23 +195,23 @@ color: white;
     }
     
     .pro_detail .detail_head h2 {
-        font-size: 74px;
+        /* font-size: 74px; */
         padding-top:unset;
     }    
     .pro_detail .detail_head p {
-        font-size: 26px;
+        /* font-size: 26px; */
     }
     .pro_detail .detail_head .detail_btn a {
         padding: 12px 90px;
-        font-size: 26px;
+        /* font-size: 26px; */
         display: inline-block;
         margin-bottom: 20px;
     }
     .need .need_card .need_text h3 {
-        font-size: 74px;
+        /* font-size: 74px; */
     }
     .need .need_card .need_text p {
-        font-size: 26px;
+        /* font-size: 26px; */
         max-width: 620px;
         
     padding-bottom: 40px;
@@ -226,7 +222,7 @@ color: white;
     } */
     .need .need_card .need_text .need_btn a {
         padding: 12px 75px;
-        font-size: 26px;
+        /* font-size: 26px; */
     }
     .pro_detail .detail_head{
         text-align: center;
@@ -238,15 +234,15 @@ color: white;
 @media(max-width:768px){
     
    .pro_banner .pro_text h1 {
-        font-size: 75px;
+        /* font-size: 75px; */
     }
     .pro_detail .detail_head h2 {
-        font-size: 40px;
+        /* font-size: 40px; */
         padding-top: unset;
         padding-top: 0;
     }
     .pro_detail .detail_head p {
-        font-size: 18px;
+        /* font-size: 18px; */
     }
     .pro_detail .detail_head .detail_btn {
         padding-top: 30px;
@@ -255,23 +251,23 @@ color: white;
     }
     .pro_detail .detail_head .detail_btn a {
         padding: 5px 15px;
-        font-size: 18px;
+        /* font-size: 18px; */
     }
     .need .need_card .need_img {
         padding-top: 50px;
        
     }
     .need .need_card .need_text h3 {
-        font-size: 40px;
+        /* font-size: 40px; */
         padding-bottom: 20px;
     }
     .need .need_card .need_text p {
-        font-size: 18px;
+        /* font-size: 18px; */
         max-width: 500px;
     }
     .need .need_card .need_text .need_btn a {
         padding: 5px 15px;
-        font-size: 18px;
+        /* font-size: 18px; */
     }
     .need .need_card .need_text p {
         padding-bottom: 25px;
@@ -292,7 +288,7 @@ color: white;
 
 @media(max-width:425px){
     .pro_banner .pro_text h1 {
-        font-size: 50px;
+        /* font-size: 50px; */
         padding: 50px 0;
     }
     .pro_detail .detail_img {
@@ -301,16 +297,16 @@ color: white;
     margin: 0 auto;
     }
     .need .need_card .need_text h3 {
-        font-size: 30px;
+        /* font-size: 30px; */
     }
     .pro_detail .detail_head h2 {
-        font-size: 30px;
+        /* font-size: 30px; */
     }
     .pro_detail .detail_head p {
-        font-size: 20px;
+        /* font-size: 20px; */
     }
     .need .need_card .need_text p {
-        font-size: 20px;
+        /* font-size: 20px; */
     }
     .pro_detail .detail_head .detail_btn {
         padding-top: 10px;
@@ -318,7 +314,7 @@ color: white;
     }
     .pro_detail .detail_head .detail_btn a {
         padding: 5px 15px;
-        font-size: 20px;
+        /* font-size: 20px; */
     }
     .pro_detail .detail_head .detail_logo{
         padding-top: 10px;
@@ -330,7 +326,7 @@ color: white;
     }
     .need .need_card .need_text .need_btn a {
         padding: 5px 15px;
-        font-size: 20px;
+        /* font-size: 20px; */
     }
     
     .request {
@@ -355,7 +351,7 @@ color: white;
        
     } */
     .pro_banner .pro_text h1 {
-        font-size: 40px;
+        /* font-size: 40px; */
         
     }
     .pro_detail .detail_img {
@@ -364,25 +360,25 @@ color: white;
     margin: 0 auto;
     }
     .pro_detail .detail_head p {
-        font-size: 16px;
+        /* font-size: 16px; */
     }
     .pro_detail .detail_head .detail_btn a {
         padding: 5px 10px;
-        font-size: 14px;
+        /* font-size: 14px; */
     }
     .need .need_card .need_text .need_btn a {
         padding: 14px 28px;
-        font-size: 25px;
+        /* font-size: 25px; */
     }
     .need .need_card .need_text p {
-        font-size: 16px;
+        /* font-size: 16px; */
     }
     .need .need_card .need_text .need_btn a {
         padding: 5px 10px;
-        font-size: 14px;
+        /* font-size: 14px; */
     }
     .request .form_Sec button a{
-        font-size: 25px;
+        /* font-size: 25px; */
     }
     /* .need .need_card .need_text h3{
         font-size: 40px;

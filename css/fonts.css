@@ -42,6 +42,13 @@ body.s51 {
     font-size: 14px;
 }
 
+@media only screen and (min-width: 769px) {
+    body.s51 {
+        font-family: 'Roboto', sans-serif !important;    
+        font-size: 16px;
+    }
+}
+
 body.s51 h1, body h2, body h3, body h4, body h5 {
     font-family: 'Barlow Condensed', sans-serif !important;
     text-transform: uppercase;
@@ -53,7 +60,33 @@ body.s51 h1, body h2, body h3, body h4, body h5 {
 
 
 
+body.s51 p, ul, li, ol {
+    font-size: 1em;
+} 
 
+body.s51 h1 {
+    font-size: 2.5rem;
+}
+
+body.s51 h2 {
+    font-size: 2.75rem ;
+}
+
+body.s51 h3 {
+    font-size: 1.75rem ;
+}
+
+body.s51 h4 {
+    font-size: 1.5rem;
+}
+
+body.s51 h5 {
+    font-size: 1.25rem;
+}
+
+body.s51 h6 {
+    font-size: 1em ;
+}
 
 
 
