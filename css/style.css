@@ -1423,6 +1423,41 @@ font-size: 45px;
 }
 
 @media (max-width: 320px) {
+  .container {
+    width: 95%;
+}
+  h1 {
+    font-size: 50px;
+    }
+    h2 {
+    font-size: 40px;
+    }
+    h3 {
+      font-size: 27px;
+    }
+    h4 {
+      font-size: 30px;
+    }
+    h5 {
+      font-size: 20px;
+      line-height: 1.2;
+      padding-top: 5px;
+  }
+    
+    p{
+      font-size: 14px;
+    }
+    .p1{
+      font-size: 16px;
+    }
+    .p2{
+      font-size:16px;
+    }
+    
+    .p3{
+      font-size: 14px;
+    }
+
   .banner_text {
 
     margin-left: 20px;
