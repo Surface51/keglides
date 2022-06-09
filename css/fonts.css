@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Roboto Slab';
     src: url('../fonts/RobotoSlab-Regular.woff2') format('woff2'),
         url('../fonts/RobotoSlab-Regular.woff') format('woff');
@@ -34,10 +34,22 @@
     font-weight: normal;
     font-style: normal;
 
+} */
+
+
+body.s51 {
+    font-family: 'Roboto', sans-serif !important;    
+    font-size: 14px;
 }
 
+body.s51 h1, body h2, body h3, body h4, body h5 {
+    font-family: 'Barlow Condensed', sans-serif !important;
+    text-transform: uppercase;
+}
 
+.banner .banner_text h1 {
 
+}
 
 
 

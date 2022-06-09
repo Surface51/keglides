@@ -681,33 +681,35 @@ footer .copyright a {
 
 @media (max-width: 1440px) {
   h1 {
-    font-size: 200px;
+    font-size: 2.5rem;
     }
     h2 {
-    font-size: 90px;
+      font-size: 2rem;
     }
     h3 {
-      font-size: 60px;
+      font-size: 1.75rem;
     }
     h4 {
-      font-size: 45px;
+      font-size: 1.5rem;
     }
     h5{
-      font-size: 30px;
+      font-size: 1.25rem;
     }
-    
+    h6 {
+      font-size: 1rem;
+    }
     p{
-      font-size: 16px;
+      font-size: 1rem;
     }
     .p1{
-      font-size: 32px;
+      font-size: 1rem;
     }
     .p2{
-      font-size:28px;
+      font-size: 1rem;
     }
     
     .p3{
-      font-size: 22px;
+      font-size: 1rem;
     }
 
   /* header {
@@ -1666,3 +1668,17 @@ nav ul li ul li a {
   color: #463f3f;
   text-decoration: none;
 } */
+
+
+body.s51 .banner_text h5 {
+  text-transform: initial;
+  font-weight: 400;
+  font-size: 2em;
+}
+
+body.s51 .banner .banner_text h2 {
+  margin-bottom: 0;
+  font-weight: 500;
+  position: relative;
+  left: -6px;
+}
