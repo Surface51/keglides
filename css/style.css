@@ -1291,7 +1291,13 @@ font-size: 45px;
       font-size: 14px;
   }
   
-  
+  .nextpages .contact_image h2 {
+    padding: 55px 0;
+}
+.nextpages .product_image h2 {
+  padding: 55px 0;
+
+}
   header nav ul {
 
     top: 124px;
