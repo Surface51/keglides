@@ -534,6 +534,11 @@ section.customer {
   padding-bottom: 84px;
 }
 
+.warning .warning_text .p3 a {
+  /* color: default; */
+  text-decoration: underline;
+}
+
 /* Warning Ends */
 /* FOOTER */
 footer {
@@ -557,11 +562,14 @@ footer .logo {
 footer .icons {
   width: 100%;
   max-width: 382px;
+  display: flex;
+  place-items: center;
   /* padding: 47px 0; */
 }
 
 footer .icons ul {
   display: flex;
+  margin-left: auto;
 }
 
 footer .icons ul li {
@@ -1848,4 +1856,17 @@ body.s51 .contact_forms .btn-primary {
 section.contact_form.contact-page {
   max-width: 1200px;
   margin: 0 auto;
+}
+
+body.s51 .pro_detail .detail_head .detail_btn a:hover {
+  background-color: #00599c;
+}
+
+body.s51 .pro_detail .detail_head .detail_btn a {
+  text-transform: uppercase;
+  transition: background-color .25s ease-in-out;
+}
+
+body.s51 .pro_detail .detail_head h2 {
+  font-weight: 700;
 }
