@@ -1287,7 +1287,11 @@ font-size: 45px;
     .p3{
       font-size: 14px;
     }
-
+    footer .copyright p {
+      font-size: 14px;
+  }
+  
+  
   header nav ul {
 
     top: 124px;
