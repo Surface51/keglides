@@ -38,19 +38,29 @@
 
 
 body.s51 {
-    font-family: 'Roboto', sans-serif !important;    
-    font-size: 14px;
+    font-family: 'Roboto', sans-serif !important;
+    font-size  : 14px;
+}
+
+p.p3,
+.copyright p,
+.detail_btn a {
+    font-family: 'Roboto', sans-serif !important;
 }
 
 @media only screen and (min-width: 769px) {
     body.s51 {
-        font-family: 'Roboto', sans-serif !important;    
-        font-size: 16px;
+        font-family: 'Roboto', sans-serif !important;
+        font-size  : 16px;
     }
 }
 
-body.s51 h1, body h2, body h3, body h4, body h5 {
-    font-family: 'Barlow Condensed', sans-serif !important;
+body.s51 h1,
+body h2,
+body h3,
+body h4,
+body h5 {
+    font-family   : 'Barlow Condensed', sans-serif !important;
     text-transform: uppercase;
 }
 
@@ -60,20 +70,23 @@ body.s51 h1, body h2, body h3, body h4, body h5 {
 
 
 
-body.s51 p, ul, li, ol {
+body.s51 p,
+ul,
+li,
+ol {
     font-size: 1em;
-} 
+}
 
 body.s51 h1 {
     font-size: 2.5rem;
 }
 
 body.s51 h2 {
-    font-size: 2.75rem ;
+    font-size: 2.75rem;
 }
 
 body.s51 h3 {
-    font-size: 1.75rem ;
+    font-size: 1.75rem;
 }
 
 body.s51 h4 {
@@ -85,14 +98,9 @@ body.s51 h5 {
 }
 
 body.s51 h6 {
-    font-size: 1em ;
+    font-size: 1em;
 }
 
 body.s51 .pro_text h1 {
     font-size: 6rem;
 }
-
-
-
-
-

@@ -1,9 +1,9 @@
 /* Global css start */
 * {
-  box-sizing: border-box;
+  box-sizing     : border-box;
   scroll-behavior: smooth;
-  padding: 0;
-  margin: 0;
+  padding        : 0;
+  margin         : 0;
 
 }
 
@@ -17,7 +17,7 @@ img {
 }
 
 body {
-  margin: 0;
+  margin : 0;
   padding: 0;
 
 }
@@ -34,40 +34,47 @@ h6 {
 }
 
 h1 {
-font-size: 214px;
+  font-size: 214px;
 }
+
 h2 {
-font-size: 109px;
+  font-size: 109px;
 }
+
 h3 {
   font-size: 70px;
 }
+
 h4 {
   font-size: 54px;
 }
-h5{
+
+h5 {
   font-size: 50px;
 }
 
-p{
+p {
   font-size: 16px;
 }
-.p1{
+
+.p1 {
   font-size: 35px;
 }
-.p2{
-  font-size:32px;
+
+.p2 {
+  font-size: 32px;
 }
 
-.p3{
+.p3 {
   font-size: 25px;
 }
+
 h1 span,
 h2 span,
 h3 span,
 h4 span,
 h5 span,
-h6 span{
+h6 span {
   font-weight: bold;
 }
 
@@ -82,8 +89,8 @@ ul,
 li,
 a {
   padding: 0;
-  margin: 0;
-  color: #000;
+  margin : 0;
+  color  : #000;
 }
 
 p {
@@ -108,8 +115,8 @@ a:hover {
 
 .container {
   max-width: 1656px;
-  margin: 0 auto;
-  width: 90%;
+  margin   : 0 auto;
+  width    : 90%;
 }
 
 /* Global css end */
@@ -120,13 +127,13 @@ header {
 }
 
 header nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display         : flex;
+  justify-content : space-between;
+  align-items     : center;
   background-color: white;
-  /* position: absolute; */
-  z-index: 1;
-  width: 100%;
+  /* position     : absolute; */
+  z-index         : 1;
+  width           : 100%;
 }
 
 header nav ul {
@@ -134,23 +141,23 @@ header nav ul {
 }
 
 header nav ul li {
-  display: inline-block;
+  display    : inline-block;
   margin-left: 60px;
 }
 
 header nav ul li a {
   color: #172a58;
 
-  font-size: 32px;
+  font-size      : 32px;
   text-decoration: none;
 
 }
 
 header nav .nav-btn a {
-  border: 1px solid;
-  padding: 11px 34px;
+  border       : 1px solid;
+  padding      : 11px 34px;
   border-radius: 4px;
-  color: black;
+  color        : black;
 }
 
 header .clear {
@@ -161,27 +168,27 @@ header .clear {
 
 /* Banner css start */
 .banner {
-  background-image: url("../images/home/Mask Group 24.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image   : url("../images/home/Mask Group 24.jpg");
+  background-size    : cover;
+  background-repeat  : no-repeat;
   background-position: center;
-  position: relative;
-  padding: 100px 0 120px;
+  position           : relative;
+  padding            : 100px 0 120px;
 }
 
 .banner::after {
-  content: " ";
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: rgb(0, 162, 255);
+  content       : " ";
+  height        : 100%;
+  position      : absolute;
+  top           : 0;
+  left          : 0;
+  width         : 100%;
+  background    : rgb(0, 162, 255);
   mix-blend-mode: multiply;
 }
 
 .banner .banner_text {
-  z-index: 1;
+  z-index : 1;
   position: relative;
 
 }
@@ -194,22 +201,22 @@ header .clear {
 .banner .banner_text h1 {
 
   font-weight: 500;
-  color: white;
+  color      : white;
 }
 
 .banner .banner_text h2 {
-  font-size: 340px;
-  font-weight: 700;
-  color: white;
-  line-height: 200px;
-  margin-top: -25px;
+  font-size    : 340px;
+  font-weight  : 700;
+  color        : white;
+  line-height  : 200px;
+  margin-top   : -25px;
   margin-bottom: 25px;
 }
 
 .banner_text h5 {
   font-weight: 700;
-  margin-top: 40px;
-  color: white;
+  margin-top : 40px;
+  color      : white;
 }
 
 
@@ -218,44 +225,45 @@ header .clear {
 
 /* FOODSERVICE CSS STARTS */
 .food {
-  padding-top: 107px;
+  padding-top      : 107px;
   /* padding-bottom: 94px; */
 }
 
 .food .foodservice h3 {
   text-align: center;
-  
-  color: #172a58;
+
+  color         : #172a58;
   padding-bottom: 48px;
-  max-width: 1366px;
-  margin: 0 auto;
+  max-width     : 1366px;
+  margin        : 0 auto;
 }
 
 
 
 .food .foodservice .p1 {
-  width: 100%;
-  max-width: 1408px;
-  text-align: center;
-  margin: 0 auto;
+  width      : 100%;
+  max-width  : 1408px;
+  text-align : center;
+  margin     : 0 auto;
   line-height: 1.5;
-  
+
   padding-bottom: 50px;
 }
 
 
-.food .foodservie_image{
-  padding:56.25% 0 0 0; 
-  position:relative;
+.food .foodservie_image {
+  padding   : 56.25% 0 0 0;
+  position  : relative;
   text-align: center;
-    margin: 0 auto;
+  margin    : 0 auto;
 }
-.food .foodservie_image iframe{
-  position:absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
+
+.food .foodservie_image iframe {
+  position     : absolute;
+  top          : 0;
+  left         : 0;
+  width        : 100%;
+  height       : 100%;
   border-radius: 10px;
   /* box-shadow: grey 0 0 8px 4px; */
 }
@@ -282,33 +290,33 @@ section.customer {
 }
 
 .food .performance h2 {
-  text-align: center;
-  color: #172a58;
+  text-align       : center;
+  color            : #172a58;
   /* padding-bottom: 1; */
-  padding: .5em 0;
+  padding          : .5em 0;
 }
 
 .food .performance h4 {
   text-align: center !important;
-  color: #00599c;
+  color     : #00599c;
 }
 
 .food .performance .p1 {
   line-height: 1.5;
-  text-align: center !important;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 900px;
-  padding: 0 !important;
+  text-align : center !important;
+  margin     : 0 auto;
+  width      : 100%;
+  max-width  : 900px;
+  padding    : 0 !important;
 }
 
 .food .performance .performance_text {
   /* font-size: 35px; */
-  font-weight: 700;
-  text-align: center;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1326px;
+  font-weight   : 700;
+  text-align    : center;
+  margin        : 0 auto;
+  width         : 100%;
+  max-width     : 1326px;
   /* padding-top: 41px; */
 }
 
@@ -316,16 +324,16 @@ section.customer {
 
 /* CUSTOMERS CSS STARTS HERE */
 .customer .customer_text h2 {
-  color: #172a58;
-  text-align: center;
+  color         : #172a58;
+  text-align    : center;
   padding-bottom: 27px;
 }
 
 .customer .customer_text h4 {
-  color: #00599c;
-  text-align: center;
+  color         : #00599c;
+  text-align    : center;
   padding-bottom: 25.7px;
- 
+
 }
 
 .customer .customer_list_text {
@@ -347,10 +355,10 @@ section.customer {
 .customer .row .col-lg-6 h4 {
   width: 100%;
   color: #00599c;
-  
-  font-weight: 700;
+
+  font-weight   : 700;
   padding-bottom: 15px;
-  padding-top: 41px;
+  padding-top   : 41px;
 }
 
 .customer .row .col-lg-6 .p1 {
@@ -366,71 +374,71 @@ section.customer {
 }
 
 .nextpages .contact_image {
-  background-image: url("./../images/home/contactpage.jpg");
+  background-image   : url("./../images/home/contactpage.jpg");
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  max-width: 802px;
+  background-repeat  : no-repeat;
+  background-size    : cover;
+  position           : relative;
+  max-width          : 802px;
 }
 
 .nextpages .contact_image::after {
-  content: " ";
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: rgba(4, 145, 229, 0.6);
+  content       : " ";
+  height        : 100%;
+  position      : absolute;
+  top           : 0;
+  left          : 0;
+  width         : 100%;
+  background    : rgba(4, 145, 229, 0.6);
   mix-blend-mode: multiply;
 }
 
 .nextpages .contact_image h2 {
 
   font-weight: 700;
-  padding: 111px 0;
-  color: white;
-  text-align: center;
-  margin: 0 auto;
+  padding    : 111px 0;
+  color      : white;
+  text-align : center;
+  margin     : 0 auto;
 }
 
 .nextpages .contact_image h2 {
-  z-index: 1;
+  z-index : 1;
   position: relative;
 }
 
 .nextpages .product_image {
-  background-image: url("./../images/home/productimage.jpg");
+  background-image   : url("./../images/home/productimage.jpg");
   /* background-image: url("./../product.html"); */
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  max-width: 802px;
+  background-repeat  : no-repeat;
+  background-size    : cover;
+  position           : relative;
+  max-width          : 802px;
 }
 
 .nextpages .product_image::after {
-  content: " ";
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background: rgba(4, 145, 229, 0.6);
+  content       : " ";
+  height        : 100%;
+  position      : absolute;
+  top           : 0;
+  left          : 0;
+  width         : 100%;
+  background    : rgba(4, 145, 229, 0.6);
   mix-blend-mode: multiply;
 }
 
 .nextpages .product_image h2 {
- 
+
   font-weight: 700;
-  padding: 111px 0;
-  color: white;
-  text-align: center;
-  margin: 0 auto;
+  padding    : 111px 0;
+  color      : white;
+  text-align : center;
+  margin     : 0 auto;
 }
 
 .nextpages .product_image h2 {
-  z-index: 1;
+  z-index : 1;
   position: relative;
 }
 
@@ -438,32 +446,32 @@ section.customer {
 
 /* FORM STARTS HERE */
 .contact_form .contact_form_text h2 {
-  width: 100%;
-  max-width: 1222px;
+  width      : 100%;
+  max-width  : 1222px;
   font-weight: 700;
 
-  color: #172a58;
+  color     : #172a58;
   text-align: left;
-  margin: 0 auto;
+  margin    : 0 auto;
 
   padding-top: 25px;
 }
 
 .contact_form .contact_form_text .p2 {
 
-  width: 100%;
-  max-width: 1222px;
-  text-align: left;
-  margin: 0 auto;
+  width         : 100%;
+  max-width     : 1222px;
+  text-align    : left;
+  margin        : 0 auto;
   padding-bottom: 50px;
-  padding-top: 50px;
+  padding-top   : 50px;
 }
 
 .contact_form .contact_forms {
-  width: 100%;
-  max-width: 1222px;
+  width     : 100%;
+  max-width : 1222px;
   text-align: left;
-  margin: 0 auto;
+  margin    : 0 auto;
 }
 
 
@@ -474,19 +482,19 @@ section.customer {
 }
 
 .contact_forms textarea::placeholder {
-  color: #172A58;
+  color    : #172A58;
   font-size: 20px;
 }
 
 .contact_forms .btn-primary {
-  margin-top: 35px;
+  margin-top      : 35px;
   background-color: #172a58;
-  width: 100%;
-  max-width: 485px;
-  font-size: 32px;
-  color: white;
-  padding: 8px 0px;
-  border: 0px;
+  width           : 100%;
+  max-width       : 485px;
+  font-size       : 32px;
+  color           : white;
+  padding         : 8px 0px;
+  border          : 0px;
 }
 
 .contact_forms .btn-primary:hover {
@@ -494,30 +502,32 @@ section.customer {
 }
 
 .contact_forms .form-control {
-  padding: 15px 15px;
-  font-size: 32px;
+  padding      : 15px 15px;
+  font-size    : 32px;
   margin-bottom: 15px;
-  height: 60px;
+  height       : 60px;
 }
 
 .contact_form input::placeholder {
-  color: #172A58;
-  font-size: 28px;
+  color      : #172A58;
+  font-size  : 28px;
   font-weight: 700;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 .contact_form textarea::placeholder {
-  font-size: 28px;
+  font-size  : 28px;
   font-weight: 700;
+  font-family: 'Roboto', sans-serif !important;
 }
 
 /* CONTACT FROM ENDS */
 
 /* WARNING CSS STARTS */
 .warning .warning_image {
-  padding-top: 159px;
+  padding-top   : 159px;
   padding-bottom: 10px;
-  text-align: center;
+  text-align    : center;
 }
 
 .warning .warning_image img {
@@ -525,12 +535,12 @@ section.customer {
 }
 
 .warning .warning_text .p3 {
-  width: 100%;
-  max-width: 1302px;
+  width      : 100%;
+  max-width  : 1302px;
   font-family: Source Sans Pro;
-  
-  text-align: center;
-  margin: 0 auto;
+
+  text-align    : center;
+  margin        : 0 auto;
   padding-bottom: 84px;
 }
 
@@ -542,12 +552,12 @@ section.customer {
 /* Warning Ends */
 /* FOOTER */
 footer {
-  padding: 50px 0;
+  padding         : 50px 0;
   background-color: #172a58;
 }
 
 .footer_content {
-  display: flex;
+  display        : flex;
   justify-content: space-between;
 }
 
@@ -560,23 +570,23 @@ footer .logo {
 }
 
 footer .icons {
-  width: 100%;
-  max-width: 382px;
-  display: flex;
+  width      : 100%;
+  max-width  : 382px;
+  display    : flex;
   place-items: center;
-  /* padding: 47px 0; */
+  /* padding : 47px 0; */
 }
 
 footer .icons ul {
-  display: flex;
+  display    : flex;
   margin-left: auto;
 }
 
 footer .icons ul li {
-  font-size: 52px;
+  font-size   : 52px;
   margin-right: 15px;
-  color: white;
-  position: relative;
+  color       : white;
+  position    : relative;
 }
 
 footer .icons li a img {
@@ -585,27 +595,27 @@ footer .icons li a img {
 
 footer .icons ul li span {
   position: absolute;
-  right: 0;
-  top: 0;
-  opacity: 0;
+  right   : 0;
+  top     : 0;
+  opacity : 0;
 }
 
 footer .icons ul li:hover span {
   opacity: 1 !important;
-  cursor: pointer;
+  cursor : pointer;
 }
 
 footer .copyright p {
 
-  color: white;
+  color      : white;
   font-weight: 700;
-  text-align: center;
-  margin: 0 auto;
+  text-align : center;
+  margin     : 0 auto;
   padding-top: 20px;
 }
 
 footer .copyright a {
-  color: white;
+  color          : white;
   text-decoration: underline;
 }
 
@@ -707,35 +717,43 @@ footer .copyright a:hover {
 @media (max-width: 1440px) {
   h1 {
     font-size: 2.5rem;
-    }
-    h2 {
-      font-size: 2rem;
-    }
-    h3 {
-      font-size: 1.75rem;
-    }
-    h4 {
-      font-size: 1.5rem;
-    }
-    h5{
-      font-size: 1.25rem;
-    }
-    h6 {
-      font-size: 1rem;
-    }
-    p{
-      font-size: 1rem;
-    }
-    .p1{
-      font-size: 1rem;
-    }
-    .p2{
-      font-size: 1rem;
-    }
-    
-    .p3{
-      font-size: 1rem;
-    }
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  .p1 {
+    font-size: 1rem;
+  }
+
+  .p2 {
+    font-size: 1rem;
+  }
+
+  .p3 {
+    font-size: 1rem;
+  }
 
   /* header {
     height: 85px;
@@ -777,18 +795,20 @@ footer .copyright a:hover {
   } */
 
   .banner .banner_text h2 {
-    font-size: 150px;
+    font-size  : 150px;
     line-height: 150px;
   }
 
-.banner .banner_text h5{
-  margin-top: unset;
-}
-.banner_text {
-  padding: 0 130px;
-}
+  .banner .banner_text h5 {
+    margin-top: unset;
+  }
+
+  .banner_text {
+    padding: 0 130px;
+  }
+
   .food {
-    padding-top: 60px;
+    padding-top      : 60px;
     /* padding-bottom: 60px; */
   }
 
@@ -798,7 +818,7 @@ footer .copyright a:hover {
 
   .food .foodservie_image {
     max-width: 950px;
-    
+
   }
 
 
@@ -826,7 +846,7 @@ font-size: 45px;
 
   .contact_form .contact_form_text p {
     padding-bottom: 25px;
-    padding-top: 15px;
+    padding-top   : 15px;
   }
 
   .contact_forms .form-control {
@@ -866,7 +886,7 @@ font-size: 45px;
   }
 
   footer .icons ul li i {
-    font-size: 36px;
+    font-size   : 36px;
     margin-right: 20px;
   }
 
@@ -887,40 +907,46 @@ font-size: 45px;
 @media (max-width: 1024px) {
   h1 {
     font-size: 80px;
-    }
-    h2 {
+  }
+
+  h2 {
     font-size: 80px;
-    }
-    h3 {
-      font-size: 50px;
-    }
-    h4 {
-      font-size: 40px;
-    }
-    h5{
-      font-size: 25px;
-    }
-    
-    p{
-      font-size: 14px;
-    }
-    .p1{
-      font-size: 24px;
-    }
-    .p2{
-      font-size:18px;
-    }
-    
-    .p3{
-      font-size: 16px;
-    }
-  
+  }
+
+  h3 {
+    font-size: 50px;
+  }
+
+  h4 {
+    font-size: 40px;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .p1 {
+    font-size: 24px;
+  }
+
+  .p2 {
+    font-size: 18px;
+  }
+
+  .p3 {
+    font-size: 16px;
+  }
+
   header .header_image {
     max-width: 300px;
   }
 
   header nav ul li a {
-    font-size: 26px;
+    font-size  : 26px;
     font-weight: 500;
 
   }
@@ -936,12 +962,12 @@ font-size: 45px;
 
   .next-arrow3 {
     font-size: 35px;
-    right: 30px;
+    right    : 30px;
   }
 
   .prev-arrow3 {
     font-size: 35px;
-    left: 30px;
+    left     : 30px;
   }
 
   .banner_text {
@@ -949,12 +975,12 @@ font-size: 45px;
   }
 
   .banner .banner_text h1 {
- 
+
     /* line-height: 75px; */
   }
 
   .banner .banner_text h2 {
-    font-size: 146px;
+    font-size  : 146px;
     line-height: 110px;
   }
 
@@ -963,14 +989,14 @@ font-size: 45px;
   }
 
   .slick-prev:before {
-    content: "<";
-    opacity: 1;
+    content  : "<";
+    opacity  : 1;
     font-size: 32px;
   }
 
   .slick-next:before {
-    content: ">";
-    opacity: 1;
+    content  : ">";
+    opacity  : 1;
     font-size: 32px;
   }
 
@@ -985,7 +1011,7 @@ font-size: 45px;
 
   .food .foodservice p {
 
-    max-width: 680px;
+    max-width     : 680px;
     padding-bottom: 10px;
   }
 
@@ -995,7 +1021,7 @@ font-size: 45px;
 
   .food .foodservie_image {
     max-width: 750px;
-}
+  }
 
   .food .performance h3 {
 
@@ -1008,7 +1034,7 @@ font-size: 45px;
   }
 
   .food .performance p {
-   
+
     max-width: 680px;
   }
 
@@ -1033,12 +1059,12 @@ font-size: 45px;
 
   .contact_form .contact_form_text p {
     max-width: 680px;
-    padding: 15px 0;
+    padding  : 15px 0;
   }
 
   .contact_forms .btn-primary {
     margin-top: 20px;
-    max-width: 250px;
+    max-width : 250px;
   }
 
   .contact_form .contact_forms {
@@ -1046,10 +1072,10 @@ font-size: 45px;
   }
 
   .contact_forms .form-control {
-    padding: 10px 10px;
-    font-size: 22px;
+    padding      : 10px 10px;
+    font-size    : 22px;
     margin-bottom: 20px;
-    height: 60px;
+    height       : 60px;
   }
 
   footer .logo {
@@ -1058,12 +1084,12 @@ font-size: 45px;
 
   .footer_content {
     max-width: 680px;
-    margin: 0 auto;
+    margin   : 0 auto;
   }
 
   footer .icons {
     max-width: 230px;
-    padding: 5px;
+    padding  : 5px;
   }
 
   footer .icons ul li i {
@@ -1083,12 +1109,12 @@ font-size: 45px;
   }
 
   .food {
-    padding-top: 60px;
+    padding-top      : 60px;
     /* padding-bottom: 60px; */
   }
 
   .food .foodservie_image {
-  max-width: 600px;
+    max-width: 600px;
   }
 
   .food .performance .performance_text {
@@ -1101,7 +1127,7 @@ font-size: 45px;
 
   .contact_form .contact_form_text p {
     padding-bottom: 15px;
-    padding-top: 15px;
+    padding-top   : 15px;
   }
 
   .warning .warning_image {
@@ -1114,33 +1140,39 @@ font-size: 45px;
 
   h1 {
     font-size: 80px;
-    }
-    h2 {
+  }
+
+  h2 {
     font-size: 60px;
-    }
-    h3 {
-      font-size: 40px;
-    }
-    h4 {
-      font-size: 30px;
-    }
-    h5{
-      font-size: 25px;
-    }
-    
-    p{
-      font-size: 14px;
-    }
-    .p1{
-      font-size: 20px;
-    }
-    .p2{
-      font-size:18px;
-    }
-    
-    .p3{
-      font-size: 16px;
-    }
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .p1 {
+    font-size: 20px;
+  }
+
+  .p2 {
+    font-size: 18px;
+  }
+
+  .p3 {
+    font-size: 16px;
+  }
 
   header .clear {
     display: block;
@@ -1156,25 +1188,25 @@ font-size: 45px;
   }
 
   header nav ul li {
-    display: block;
+    display      : block;
     border-bottom: 1px solid gray;
   }
 
   header nav ul {
     position: absolute;
-    width: calc(100% + 61px);
-    top: 132px;
-    z-index: 999999;
-    left: -61px;
+    width   : calc(100% + 61px);
+    top     : 132px;
+    z-index : 999999;
+    left    : -61px;
   }
 
   nav ul li a {
-    padding: 15px 60px !important;
+    padding    : 15px 60px !important;
     line-height: 20px;
   }
 
   /* nav code here */
-  
+
   .banner_text {
     padding: 0 40px;
   }
@@ -1191,9 +1223,11 @@ font-size: 45px;
   .banner_text p {
     max-width: 300px;
   }
+
   .customer .customer_text h5 {
     padding-bottom: 20px;
   }
+
   .cusotmers-wrapper {
     padding: 20px 40px 0px 40px;
   }
@@ -1208,8 +1242,8 @@ font-size: 45px;
 
   .contact_forms .btn-primary {
     margin-top: 10px;
-    max-width: 150px;
-    font-size: 14px;
+    max-width : 150px;
+    font-size : 14px;
   }
 
   .contact_form .contact_form_text h6 {
@@ -1218,7 +1252,7 @@ font-size: 45px;
 
   .contact_forms .form-control {
     font-size: 14px;
-    height: 30px;
+    height   : 30px;
   }
 
   .contact_form input::placeholder {
@@ -1234,7 +1268,7 @@ font-size: 45px;
   }
 
   .warning .warning_text p {
-    max-width: 583px;
+    max-width     : 583px;
     padding-bottom: 25px;
   }
 
@@ -1285,53 +1319,63 @@ font-size: 45px;
 
   h1 {
     font-size: 50px;
-    }
-    h2 {
+  }
+
+  h2 {
     font-size: 40px;
-    }
-    h3 {
-      font-size: 35px;
-    }
-    h4 {
-      font-size: 30px;
-    }
-    h5 {
-      font-size: 20px;
-      line-height: 1.2;
-      padding-top: 5px;
   }
-    
-    p{
-      font-size: 14px;
-    }
-    .p1{
-      font-size: 18px;
-    }
-    .p2{
-      font-size:16px;
-    }
-    
-    .p3{
-      font-size: 14px;
-    }
-    footer .copyright p {
-      font-size: 14px;
+
+  h3 {
+    font-size: 35px;
   }
-  
+
+  h4 {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size  : 20px;
+    line-height: 1.2;
+    padding-top: 5px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .p1 {
+    font-size: 18px;
+  }
+
+  .p2 {
+    font-size: 16px;
+  }
+
+  .p3 {
+    font-size: 14px;
+  }
+
+  footer .copyright p {
+    font-size: 14px;
+  }
+
   .nextpages .contact_image h2 {
     padding: 55px 0;
-}
-.nextpages .product_image h2 {
-  padding: 55px 0;
+  }
 
-}
-.banner .banner_text h5 {
-  margin-top: 10px;
-}
+  .nextpages .product_image h2 {
+    padding: 55px 0;
 
-.banner {
-  padding: 60px 0 70px;
-}
+  }
+
+  .banner .banner_text h5 {
+    margin-top: 10px;
+  }
+
+  .banner {
+    padding: 60px 0 70px;
+  }
+
   header nav ul {
 
     top: 124px;
@@ -1351,29 +1395,29 @@ font-size: 45px;
   }
 
   .slick-dots li.slick-active button:before {
-    font-size: 75px;
+    font-size : 75px;
     margin-top: -2px;
-    /* width: 15px; */
+    /* width  : 15px; */
   }
 
   .slick-dots li {
-    width: 25px;
+    width : 25px;
     margin: 0 0px;
   }
 
   .slick-dots li button:before {
-    width: 15px;
+    width : 15px;
     height: 15px;
   }
 
   .banner_text {
-    padding: 0 0px;
+    padding    : 0 0px;
     margin-left: 50px;
   }
 
 
   .banner .banner_text h2 {
-    font-size: 100px;
+    font-size    : 100px;
     margin-bottom: -15px;
   }
 
@@ -1390,7 +1434,7 @@ font-size: 45px;
   }
 
   .food .foodservie_image {
-    max-width:280px;
+    max-width: 280px;
   }
 
   .food .performance .performance_text {
@@ -1403,7 +1447,7 @@ font-size: 45px;
 
   .contact_form .contact_form_text p {
     padding-bottom: 20px;
-    padding-top: 20px;
+    padding-top   : 20px;
   }
 
   .nextpages {
@@ -1411,9 +1455,9 @@ font-size: 45px;
   }
 
   .contact_forms .form-control {
-    padding: 5px 5px;
+    padding      : 5px 5px;
     margin-bottom: 10px;
-    height: 45px;
+    height       : 45px;
   }
 
   .contact_forms .btn-primary {
@@ -1445,7 +1489,7 @@ font-size: 45px;
 
   .slick-dots li.slick-active button:before {
     font-size: 75px;
-    /* width: 15px; */
+    /* width : 15px; */
   }
 
   header .header_image {
@@ -1453,7 +1497,7 @@ font-size: 45px;
   }
 
   .banner .banner_text h2 {
-    font-size: 100px;
+    font-size    : 100px;
     margin-bottom: -15px;
   }
 
@@ -1469,38 +1513,45 @@ font-size: 45px;
 @media (max-width: 320px) {
   .container {
     width: 95%;
-}
+  }
+
   h1 {
     font-size: 50px;
-    }
-    h2 {
-    font-size: 40px;
-    }
-    h3 {
-      font-size: 27px;
-    }
-    h4 {
-      font-size: 30px;
-    }
-    h5 {
-      font-size: 20px;
-      line-height: 1.2;
-      padding-top: 5px;
   }
-    
-    p{
-      font-size: 14px;
-    }
-    .p1{
-      font-size: 16px;
-    }
-    .p2{
-      font-size:16px;
-    }
-    
-    .p3{
-      font-size: 14px;
-    }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 27px;
+  }
+
+  h4 {
+    font-size: 30px;
+  }
+
+  h5 {
+    font-size  : 20px;
+    line-height: 1.2;
+    padding-top: 5px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .p1 {
+    font-size: 16px;
+  }
+
+  .p2 {
+    font-size: 16px;
+  }
+
+  .p3 {
+    font-size: 14px;
+  }
 
   .banner_text {
 
@@ -1524,22 +1575,22 @@ font-size: 45px;
 
 nav ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  margin    : 0;
+  padding   : 0;
 }
 
 nav ul li {
-  float: left;
+  float   : left;
   position: relative;
 }
 
 nav ul li a {
-  display: block;
-  line-height: 70px;
-  background: #ffffff;
-  color: #463f3f;
-  text-decoration: none;
-  border-bottom: 4px solid white;
+  display                                  : block;
+  line-height                              : 70px;
+  background                               : #ffffff;
+  color                                    : #463f3f;
+  text-decoration                          : none;
+  border-bottom                            : 4px solid white;
   /*
   The full path of this code is nav ul li a:not(:only-child):after. This means that the code will apply to any a tag in our nav list that is NOT an only child, aka any dropdown. The :after means it comes after the output of the tag. I’ve decided that to specify any nav item as a dropdown, it will be followed by a unicode arrow – ▾ (#9662).
   */
@@ -1552,7 +1603,7 @@ nav ul li a:hover {
 
 nav ul li a:not(:only-child):after {
   padding-left: 4px;
-  content: ' ▾';
+  content     : ' ▾';
 }
 
 nav ul li ul li {
@@ -1560,26 +1611,26 @@ nav ul li ul li {
 }
 
 nav ul li ul li a {
-  padding: 15px 60px;
+  padding    : 15px 60px;
   line-height: 20px;
 }
 
 .nav-dropdown {
-  position: absolute;
-  z-index: 1;
+  position  : absolute;
+  z-index   : 1;
   /* Guarantees that the dropdown will display on top of any content. */
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
-  display: none;
+  display   : none;
 }
 
 .nav-mobile {
-  display: none;
-  position: absolute;
-  top: 100;
-  right: 0;
+  display   : none;
+  position  : absolute;
+  top       : 100;
+  right     : 0;
   background: #fff;
-  height: 70px;
-  width: 70px;
+  height    : 70px;
+  width     : 70px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1601,7 +1652,7 @@ nav ul li ul li a {
   }
 
   nav ul li a {
-    padding: 15px;
+    padding    : 15px;
     line-height: 20px;
   }
 
@@ -1612,24 +1663,24 @@ nav ul li ul li a {
 
 #nav-toggle {
   position: absolute;
-  left: 18px;
-  top: 22px;
-  cursor: pointer;
-  padding: 10px 35px 16px 0px;
+  left    : 18px;
+  top     : 22px;
+  cursor  : pointer;
+  padding : 10px 35px 16px 0px;
 }
 
 #nav-toggle span,
 #nav-toggle span:before,
 #nav-toggle span:after {
-  cursor: pointer;
+  cursor       : pointer;
   border-radius: 1px;
-  height: 5px;
-  width: 35px;
-  background: #463f3f;
-  position: absolute;
-  display: block;
-  content: '';
-  transition: all 300ms ease-in-out;
+  height       : 5px;
+  width        : 35px;
+  background   : #463f3f;
+  position     : absolute;
+  display      : block;
+  content      : '';
+  transition   : all 300ms ease-in-out;
 }
 
 #nav-toggle span:before {
@@ -1667,7 +1718,7 @@ nav ul li ul li a {
 .navigation – the outer wrapper for the navbar. Specifies the height and color, and will stretch the full width of the viewport.
 */
 .navigation {
-  height: 70px;
+  height    : 70px;
   background: #ffffff;
 }
 
@@ -1676,7 +1727,7 @@ nav ul li ul li a {
 */
 .nav-container {
   max-width: 1000px;
-  margin: 0 auto;
+  margin   : 0 auto;
 }
 
 /* 
@@ -1699,60 +1750,64 @@ nav ul li ul li a {
 
 body.s51 .food .foodservice h3 {
   padding-bottom: 1em;
-  font-weight: 400;
+  font-weight   : 400;
 }
 
 p.p1 {
   padding-bottom: 1em !important;
-  padding-top: 1em !important;
+  padding-top   : 1em !important;
 }
 
 .warning_text {
   max-width: 800px;
-  margin: 0 auto;
+  margin   : 0 auto;
 }
 
 .contact_form {
-  width: 1000px;
-  margin: 0 auto;
+  width      : 1000px;
+  margin     : 0 auto;
   padding-top: 2em;
 }
 
 body.s51 .btn.btn-primary {
-  font-size: 1.25em;
-  width: 40%;
-  margin-top: 1em;
-  border-radius: 0;
+  font-size     : 1.25em;
+  width         : 40%;
+  margin-top    : 1em;
+  border-radius : 0;
   text-transform: uppercase;
 }
 
-body.s51 .contact_forms input, body.s51 .contact_forms textarea  {
-  font-size: 1em !important;
-    text-transform: initial;
-    height: auto;
-    line-height: 100%;
-    padding: 1em 1em;
-    border-radius: 0;
+body.s51 .contact_forms input,
+body.s51 .contact_forms textarea {
+  font-size     : 1em !important;
+  text-transform: initial;
+  height        : auto;
+  line-height   : 100%;
+  padding       : 1em 1em;
+  border-radius : 0;
+  font-family   : 'Roboto', sans-serif !important;
 }
 
-body.s51 .contact_forms input::-webkit-input-placeholder, 
-body.s51 .contact_forms textarea::-webkit-input-placeholder, 
-body.s51 .contact_forms input:-moz-placeholder , 
-body.s51 .contact_forms textarea:-moz-placeholder , 
-body.s51 .contact_forms input::-moz-placeholder, 
-body.s51 .contact_forms textarea::-moz-placeholder, 
-body.s51 .contact_forms input:-ms-input-placeholder, 
+body.s51 .contact_forms input::-webkit-input-placeholder,
+body.s51 .contact_forms textarea::-webkit-input-placeholder,
+body.s51 .contact_forms input:-moz-placeholder,
+body.s51 .contact_forms textarea:-moz-placeholder,
+body.s51 .contact_forms input::-moz-placeholder,
+body.s51 .contact_forms textarea::-moz-placeholder,
+body.s51 .contact_forms input:-ms-input-placeholder,
 body.s51 .contact_forms textarea:-ms-input-placeholder,
 body.s51 .contact_forms input:placeholder-shown,
 body.s51 .contact_forms textarea:placeholder-shown,
 body.s51 .contact_forms input:placeholder,
 body.s51 .contact_forms textarea:placeholder {
   text-transform: uppercase !important;
-  font-size: 1em;
-  font-weight: 300;
+  font-size     : 1em;
+  font-weight   : 300;
+  font-family   : 'Roboto', sans-serif !important;
 }
 
 @media (min-width: 1440px) {
+
   .contact_form .contact_forms input::placeholder,
   .contact_form .contact_forms textarea::placeholder {
     font-size: 1.25em;
@@ -1770,85 +1825,87 @@ body.s51 .contact_forms textarea.form-control {
 
 body.s51 .banner_text h5 {
   text-transform: initial;
-  font-weight: 400;
-  font-size: 2em;
-  margin-top: -0.5em;
+  font-weight   : 400;
+  font-size     : 2em;
+  margin-top    : -0.5em;
 }
 
 body.s51 .banner .banner_text h2 {
   margin-bottom: 0;
-  font-weight: 500;
-  position: relative;
-  left: -6px;
+  font-weight  : 500;
+  position     : relative;
+  left         : -6px;
 }
 
 body.s51 .banner .banner_text h1 {
-  font-weight: 300;
-  font-size: 4em;
+  font-weight   : 300;
+  font-size     : 4em;
   padding-bottom: 0px;
 }
 
 @media only screen and (min-width: 426px) {
-  body.s51 .banner_text h5 { 
+  body.s51 .banner_text h5 {
     margin-top: 0;
   }
 }
 
 @media only screen and (min-width: 769px) {
   body.s51 .banner .banner_text h1 {
-    font-size: 5em;
+    font-size     : 5em;
     padding-bottom: 20px;
-    
+
   }
+
   body.s51 .banner .banner_text h2 {
     margin-bottom: 8px;
   }
-  body.s51 .banner .banner_text h5 { 
+
+  body.s51 .banner .banner_text h5 {
     margin-top: 0;
   }
 }
 
 @media only screen and (min-width: 1025px) {
   body.s51 .banner .banner_text h1 {
-    font-size: 6em;
+    font-size     : 6em;
     padding-bottom: 8px;
   }
+
   body.s51 .banner .banner_text h2 {
     font-size: 12em;
   }
-  body.s51 .banner .banner_text h5 { 
-   
-  }
+
+  body.s51 .banner .banner_text h5 {}
 }
 
 @media only screen and (min-width: 1441px) {
   body.s51 .banner .banner_text h1 {
-    font-size: 8em;
+    font-size     : 8em;
     padding-bottom: 0;
   }
+
   body.s51 .banner .banner_text h2 {
     font-size: 17em;
   }
-  body.s51 .banner .banner_text h5 { 
+
+  body.s51 .banner .banner_text h5 {
     font-size: 3.5em;
   }
 }
 
 body.s51 header nav ul li a {
-  font-size: 1.5em;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-family: 'Barlow Condensed', sans-serif !important;
+  font-size      : 1.5em;
+  text-decoration: none;
+  text-transform : uppercase;
+  font-weight    : 500;
+  font-family    : 'Barlow Condensed', sans-serif !important;
 }
 
 body.s51 .contact_form {
   width: 100%;
 }
 
-body.s51 .contact_forms .btn-primary {
-
-}
+body.s51 .contact_forms .btn-primary {}
 
 .foodservie_image {
   margin-top: 2em !important;
@@ -1860,7 +1917,7 @@ body.s51 .contact_forms .btn-primary {
 
 section.contact_form.contact-page {
   max-width: 1200px;
-  margin: 0 auto;
+  margin   : 0 auto;
 }
 
 body.s51 .pro_detail .detail_head .detail_btn a:hover {
@@ -1869,7 +1926,7 @@ body.s51 .pro_detail .detail_head .detail_btn a:hover {
 
 body.s51 .pro_detail .detail_head .detail_btn a {
   text-transform: uppercase;
-  transition: background-color .25s ease-in-out;
+  transition    : background-color .25s ease-in-out;
 }
 
 body.s51 .pro_detail .detail_head h2 {
@@ -1877,10 +1934,10 @@ body.s51 .pro_detail .detail_head h2 {
 }
 
 .icons a img {
-  transform: scale(1,1);
+  transform : scale(1, 1);
   transition: transform .25s ease-in-out;
 }
 
-.icons a img:hover  {
-  transform: scale(1.1,1.1);
+.icons a img:hover {
+  transform: scale(1.1, 1.1);
 }
