@@ -1745,7 +1745,9 @@ nav ul li ul li a {
   text-decoration: none;
 } */
 
-
+p {
+  margin-bottom: 1em;
+}
 
 
 body.s51 .food .foodservice h3 {
@@ -1940,4 +1942,16 @@ body.s51 .pro_detail .detail_head h2 {
 
 .icons a img:hover {
   transform: scale(1.1, 1.1);
+}
+
+.detail_btn {
+  padding-top   : 56px;
+  padding-bottom: 130px;
+  display       : inline-block;
+}
+
+.detail_btn a {
+  color           : white;
+  background-color: #172A58;
+  padding         : 10px 60px;
 }
