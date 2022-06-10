@@ -1954,4 +1954,5 @@ body.s51 .pro_detail .detail_head h2 {
   color           : white;
   background-color: #172A58;
   padding         : 10px 60px;
+  text-transform  : uppercase;
 }
