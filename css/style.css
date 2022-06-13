@@ -856,7 +856,6 @@ font-size: 45px;
   .contact_form input::placeholder {
 
     font-size: 22px;
-    height   : 30px;
 
   }
 
@@ -1265,7 +1264,7 @@ font-size: 45px;
   .contact_form ::placeholder {
     font-size: 14px !important;
 
-    height: 200px;
+    /* height: 200px; */
   }
 
   .warning .warning_text p {
