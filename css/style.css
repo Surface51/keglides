@@ -482,8 +482,8 @@ section.customer {
 }
 
 .contact_forms textarea::placeholder {
-  color    : #172A58;
-  font-size: 20px;
+  color       : #172A58;
+  /* font-size: 20px; */
 }
 
 .contact_forms .btn-primary {
@@ -509,14 +509,14 @@ section.customer {
 }
 
 .contact_form input::placeholder {
-  color      : #172A58;
-  font-size  : 28px;
-  font-weight: 700;
-  font-family: 'Roboto', sans-serif !important;
+  color         : #172A58;
+  /* font-size  : 28px; */
+  font-weight   : 700;
+  font-family   : 'Roboto', sans-serif !important;
 }
 
 .contact_form textarea::placeholder {
-  font-size  : 28px;
+  /* font-size  : 28px; */
   font-weight: 700;
   font-family: 'Roboto', sans-serif !important;
 }
@@ -853,16 +853,16 @@ font-size: 45px;
     font-size: 24px;
   }
 
-  .contact_form input::placeholder {
+  /* .contact_form input::placeholder {
 
     font-size: 22px;
 
-  }
+  } */
 
-  .contact_form textarea::placeholder {
+  /* .contact_form textarea::placeholder {
     font-size: 22px;
 
-  }
+  } */
 
   .warning .warning_image {
     padding-top: 60px;
@@ -1255,17 +1255,17 @@ font-size: 45px;
     height   : 30px;
   }
 
-  .contact_form input::placeholder {
+  /* .contact_form input::placeholder {
 
     font-size: 14px;
 
-  }
+  } */
 
-  .contact_form ::placeholder {
+  /* .contact_form ::placeholder {
     font-size: 14px !important;
 
-    /* height: 200px; */
-  }
+    height: 200px;
+  } */
 
   .warning .warning_text p {
     max-width     : 583px;
@@ -1788,6 +1788,7 @@ body.s51 .contact_forms textarea {
   padding       : 1em 1em;
   border-radius : 0;
   font-family   : 'Roboto', sans-serif !important;
+
 }
 
 body.s51 .contact_forms input::-webkit-input-placeholder,
@@ -1800,12 +1801,13 @@ body.s51 .contact_forms input:-ms-input-placeholder,
 body.s51 .contact_forms textarea:-ms-input-placeholder,
 body.s51 .contact_forms input:placeholder-shown,
 body.s51 .contact_forms textarea:placeholder-shown,
-body.s51 .contact_forms input:placeholder,
-body.s51 .contact_forms textarea:placeholder {
+body.s51 .contact_forms input::placeholder,
+body.s51 .contact_forms textarea::placeholder {
   text-transform: uppercase !important;
   font-size     : 1em;
   font-weight   : 300;
   font-family   : 'Roboto', sans-serif !important;
+  opacity       : 1;
 }
 
 @media (min-width: 1440px) {
